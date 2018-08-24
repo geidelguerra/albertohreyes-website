@@ -1,5 +1,11 @@
 module.exports = {
   /*
+  ** Modules
+  */
+  modules: [
+    //
+  ],
+  /*
   ** Headers of the page
   */
   head: {

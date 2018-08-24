@@ -1,0 +1,174 @@
+[
+  {
+    "title": "Expo \"Proyecto Alternativo Arte en Verano\"",
+    "personal": false,
+    "year": 1996,
+    "location": "Galería Universal de Güines"
+  },
+  {
+    "title": "Expo \"La Plástica en La Habana\"",
+    "personal": false,
+    "year": 1996,
+    "location": "Biblioteca Municipal de Güines"
+  },
+  {
+    "title": "Expo \"Naturaleza Viva\"",
+    "personal": false,
+    "year": 1996,
+    "location": "Galería de Arte \"Amelia Peláez\". Parque Lenin"
+  },
+  {
+    "title": "Expo \"Festival Provincial de la FEU\"",
+    "personal": false,
+    "year": 1999,
+    "location": "Facultad de Ciencias Médicas de La Habana. Premio"
+  },
+  {
+    "title": "Expo \"Nudos\"",
+    "personal": false,
+    "year": 2000,
+    "location": "Galería Universal de Güines."
+  },
+  {
+    "title": "Expo \"Taller Pedro del Valle\"",
+    "personal": false,
+    "year": 2000,
+    "location": "Centro de Prensa Internacional. La Habana"
+  },
+  {
+    "title": "Expo \"More and More Cuban Art\"",
+    "personal": false,
+    "year": 2002,
+    "location": "Centro de Convenciones del Hotel Meliá Panamá. Panamá"
+  },
+  {
+    "title": "Expo \"Ilustrar es un Placer\"",
+    "personal": false,
+    "year": 2003,
+    "location": "Feria del libro. Museo de Historia de Artemisa"
+  },
+  {
+    "title": "XV Salón de Artes Plásticas \"Arístides Fernández\"",
+    "personal": false,
+    "year": 2003,
+    "location": "Galería Universal de Güines"
+  },
+  {
+    "title": "XV Salón de Artes Plásticas \"Arístides Fernández\"",
+    "personal": false,
+    "year": 2003,
+    "location": "Galería Universal de Güines"
+  },
+  {
+    "title": "Expo \"Primavera 2003\"",
+    "personal": false,
+    "year": 2003,
+    "location": "Centro de Prensa Internacional. La Habana"
+  },
+  {
+    "title": "Expo \"Estamos aquí\"",
+    "personal": false,
+    "year": 2003,
+    "location": "Galería Espis. Casa del Joven Creador Provincial. San José"
+  },
+  {
+    "title": "Expo \"Imitar el color del infinito\"",
+    "personal": false,
+    "year": 2003,
+    "location": "Palacio de las Convenciones de Cuba"
+  },
+  {
+    "title": "Expo \"Cuba: Genio y arte...\"",
+    "personal": false,
+    "year": 2003,
+    "location": "Edwell Fine Gallery. Madrid. España"
+  },
+  {
+    "title": "Expo \"Paisajes y Alucinosis\"",
+    "personal": true,
+    "year": 2003,
+    "location": "Galería Pirámide. UNEAC Territorial. Güines"
+  },
+  {
+    "title": "Expo \"Window to Cuba\"",
+    "personal": false,
+    "year": 2004,
+    "location": "Havana Gallery. Chicago. E.U.A."
+  },
+  {
+    "title": "Subasta Extraordinaria",
+    "personal": false,
+    "year": 2004,
+    "location": "Sala Retiro. Madrid. España"
+  },
+  {
+    "title": "II Salón Nacional de Paisaje \"Víctor Manuel\"",
+    "personal": false,
+    "year": 2005,
+    "location": "Convento de San Francisco de Asís. La Habana"
+  },
+  {
+    "title": "XVII Salón de Artes Plásticas \"Arístides Fernández\"",
+    "personal": false,
+    "year": 2005,
+    "location": "Galería Universal de Güines"
+  },
+  {
+    "title": "XX Salón de Artes Plásticas \"Habana\"",
+    "personal": false,
+    "year": 2005,
+    "location": "San Antonio de los Baños"
+  },
+  {
+    "title": "Subasta Extraordinaria",
+    "personal": false,
+    "year": 2005,
+    "location": "Sala Retiro. Madrid. España"
+  },
+  {
+    "title": "Expo \"Ayer y hoy\"",
+    "personal": false,
+    "year": 2007,
+    "location": "Renee Gallery. E.U.A."
+  },
+  {
+    "title": "Expo \"Away from home\"",
+    "personal": false,
+    "year": 2009,
+    "location": "Renee Gallery, 1331, SW, Calle 8, Miami. E.U.A."
+  },
+  {
+    "title": "XXVIII Salón de Artes Plásticas \"Arístides Fernández\"",
+    "personal": false,
+    "year": 2011,
+    "location": "Galería Universal de Güines"
+  },
+  {
+    "title": "Expo \"Impermanencia\"",
+    "personal": true,
+    "year": 2012,
+    "location": "Palacio de Lombillo. La Habana"
+  },
+  {
+    "title": "Expo \"Transfiguraciones\"",
+    "personal": true,
+    "year": 2014,
+    "location": "Galería Carmen Montilla. La Habana",
+    "featured": true,
+    "featuredImage": {
+      "url": "/images/exhibits/transfiguraciones_bg.jpg"
+    }
+  },
+  {
+    "title": "Expo \"Cuba sojourn\"",
+    "personal": false,
+    "year": 2015,
+    "location": "The Studio at Gulf and Pine. Sarasota. E.U.A."
+  },
+  {
+    "title": "II Salón de Paisaje 2015",
+    "personal": false,
+    "year": 2015,
+    "location": "Galería La Acacia. La Habana"
+  }
+]
