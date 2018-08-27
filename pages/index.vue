@@ -2,8 +2,8 @@
   <main class="flex-1">
     <!-- Hero -->
     <section>
-      <div class="bg-cover bg-center bg-no-repeat bg-fixed h-screen md:h-128" :style="{backgroundImage: `url(${hero.imageUrl})`}">
-        <div class="h-full bg-black-50">
+      <div class="bg-cover bg-center bg-no-repeat bg-fixed h-screen" :style="{backgroundImage: `url(${hero.imageUrl})`}">
+        <div class="h-full">
           <div class="max-w-xl mx-auto flex flex-col h-full">
             <div class="flex flex-1 justify-center items-center">
               <div class="p-4">
@@ -11,7 +11,7 @@
                 <div class="text-center text-grey-3 text-xl font-thin">
                   Artista de la Plástica
                 </div>
-                <div class="text-grey-2 text-sm text-center pt-2 pb-2 max-w-sm">
+                <div class="text-white text-sm text-center pt-2 pb-2 max-w-sm">
                   Para Alberto: Es como estar suspendido en un lugar indefinido del espacio y desde allí contemplar las brumas de una tempestad contenida sobre el Paisaje Cubano, <em>¡qué bella inspiración, qué noble oficio!</em>
                   <div class="text-center mt-2">
                     Eusebio Leal Spengler
