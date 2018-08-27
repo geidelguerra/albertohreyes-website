@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="w-full h-full max-h-0 flex flex-col overflow-hidden relative">
+  <div class="w-full h-full flex flex-col relative">
     <div class="flex pin-t z-20 w-full p-2">
       <div class="text-white text-sm p-2">
         {{ value + 1 }} de {{ items.length }}
@@ -8,15 +8,18 @@
       <button type="button" class="block p-2 text-white bg-white-10 rounded w-10 ml-4 mr-4" @click="$emit('request-close')">&times;</button>
     </div>
 
-    <div class="flex justify-center items-center p-4 flex-1 relative">
-      <transition name="fade" mode="out-in">
-        <img v-if="currentItem" class="border border-white shadow-md max-h-full" :src="currentItem.image.url" :alt="currentItem.title" :key="currentItem.image.url">
-      </transition>
+    <div class="flex-1 flex relative p-4">
+      <div ref="imageContainer" class="flex justify-center items-center w-full">
+        <transition name="fade" mode="out-in">
+          <img v-if="currentItem" class="max-w-full h-auto" :style="{maxHeight: `${imageContainerSize}px`}" :src="currentItem.image.url" :alt="currentItem.title" :key="currentItem.image.url">
+        </transition>
+      </div>
 
       <button type="button" class="absolute pin-l pin-y w-1/3 bg-white opacity-0 focus:outline-none hover:opacity-10" @click="previousItem"></button>
       <button type="button" class="absolute pin-r pin-y w-1/3 bg-white opacity-0 focus:outline-none hover:opacity-10" @click="nextItem"></button>
     </div>
-    <div class="pl-4 pr-4 overflow-hidden">
+
+    <div class="pl-4 pr-4 overflow-hidden z-10">
       <transition name="slide-fade-top" mode="out-in">
         <h2 class="text-white text-center uppercase text-xl font-thin" :key="currentItem.image.url">{{ currentItem.title}}</h2>
       </transition>
@@ -36,6 +39,12 @@ export default {
     value: Number,
   },
 
+  data () {
+    return {
+      imageContainerSize: 0,
+    };
+  },
+
   computed: {
     currentItem () {
       if (this.value >= 0 && this.value < this.items.length) {
@@ -47,6 +56,9 @@ export default {
   },
 
   methods: {
+    updateImageContainerSize () {
+      this.imageContainerSize = this.$refs.imageContainer.clientHeight;
+    },
     nextItem () {
       let nextIndex = this.value + 1;
 
@@ -79,15 +91,21 @@ export default {
       if (code == 'ArrowRight') {
         this.nextItem();
       }
+    },
+    onResize (event) {
+      this.updateImageContainerSize();
     }
   },
 
   mounted () {
     window.addEventListener('keyup', this.onKeyUp);
+    window.addEventListener('resize', this.onResize);
+    this.updateImageContainerSize();
   },
 
   beforeDestroy () {
     window.removeEventListener('keyup', this.onKeyUp);
+    window.removeEventListener('resize', this.onResize);
   }
 }
 </script>
