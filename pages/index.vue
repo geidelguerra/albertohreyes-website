@@ -96,9 +96,9 @@
           <!-- Articles -->
           <div v-if="exhibit.articles" class="pt-16 pb-16 bg-grey-5 ">
             <div class="max-w-xl mx-auto">
-              <v-slider auto>
+              <v-slider auto class="min-h-128 sm:min-h-64">
                 <template v-for="(article, j) in exhibit.articles">
-                  <div class="min-h-64" :key="i+j">
+                  <div :key="i+j">
                     <h2 class="text-center uppercase text-grey-7 pl-4 pr-4">{{ article.author.name }}</h2>
                     <div v-if="article.author.title" class="text-center text-sm pl-4 pr-4 pb-4">
                       {{ article.author.title }}

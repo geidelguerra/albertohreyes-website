@@ -44,10 +44,12 @@ export default {
   },
 
   render (createElement, context) {
-    return createElement('div', {}, [
+    return createElement('div', {
+      class: 'flex flex-col'
+    }, [
       createElement('div', {
         attrs: {
-          class: 'overflow-hidden',
+          class: 'overflow-hidden flex-1',
         }
       }, [
         createElement('transition', {
