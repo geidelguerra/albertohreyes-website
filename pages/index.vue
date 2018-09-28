@@ -118,19 +118,23 @@
           <div v-if="exhibit.gallery" class="pt-16 pb-16">
             <h1 class="text-center uppercase p-4">Galería</h1>
             <div class="max-w-xl mx-auto">
-              <div class="flex flex-wrap pl-2 pr-2">
-                <template v-for="(item, j) in exhibit.gallery">
-                  <div class="w-full pt-4 pb-4 pl-2 pr-2 sm:w-1/2 md:w-1/3" :key="i+j">
-                    <button type="button" class="block appearance-none w-full" @click="onGalleryItemClick(item, exhibit.gallery)">
-                      <div class="pb-16x9 bg-grey-1 bg-cover bg-center bg-no-repeat hover:shadow-md" :style="{backgroundImage: `url(${item.thumbnail ? item.thumbnail.url : item.image.url})`}"></div>
-                      <div class="text-center text-sm mt-1 text-grey-2">{{ item.dimensions.join(' x ') }} <template v-if="item.year">({{ item.year }})</template></div>
-                      <h2 class="text-center uppercase mt-4 font-thin text-xl">{{ item.title }}</h2>
-                      <div class="w-12 h-1 mt-4 mb-4 mx-auto bg-yellow-1"></div>
-                      <p class="text-center text-grey-2">{{ item.description }}</p>
-                    </button>
+              <v-slider style="min-height: 375px" :auto="!showGallery">
+                <template v-for="(page) in totalPages(exhibit.gallery.length, gallerySliderItemsPerPage)">
+                  <div class="flex flex-wrap pl-2 pr-2" :key="page">
+                    <template v-for="(item, j) in paginate(exhibit.gallery, page, gallerySliderItemsPerPage)">
+                      <div class="w-full pt-4 pb-4 pl-2 pr-2 sm:w-1/2 md:w-1/3" :key="i+j">
+                        <button type="button" class="block appearance-none w-full" @click="onGalleryItemClick(item, exhibit.gallery)">
+                          <div class="pb-16x9 bg-grey-1 bg-cover bg-center bg-no-repeat hover:shadow-md" :style="{backgroundImage: `url(${item.thumbnail ? item.thumbnail.url : item.image.url})`}"></div>
+                          <div class="text-center text-sm mt-1 text-grey-2">{{ item.dimensions.join(' x ') }} <template v-if="item.year">({{ item.year }})</template></div>
+                          <h2 class="text-center uppercase mt-4 font-thin text-xl">{{ item.title }}</h2>
+                          <div class="w-12 h-1 mt-4 mb-4 mx-auto bg-yellow-1"></div>
+                          <p class="text-center text-grey-2">{{ item.description }}</p>
+                        </button>
+                      </div>
+                    </template>
                   </div>
                 </template>
-              </div>
+              </v-slider>
             </div>
           </div>
         </div>
@@ -214,6 +218,7 @@ export default {
       contact: {
         email: 'albertohreyes1976@gmail.com'
       },
+      gallerySliderItemsPerPage: 3,
       showGallery: false,
       galleryItemIndex: -1,
       galleryItems: [],
@@ -256,6 +261,16 @@ export default {
   },
 
   methods: {
+    totalPages (totalItems, itemsPerPage) {
+      return Math.ceil(totalItems / itemsPerPage);
+    },
+    paginate (items, page, itemsPerPage) {
+      const totalItems = items.length;
+      const i = (page - 1) * itemsPerPage;
+      const j = i + itemsPerPage;
+
+      return items.slice(i, j);
+    },
     onGalleryItemClick (item, gallery) {
       this.galleryItems = gallery;
       this.galleryItemIndex = gallery.findIndex((item2) => item2 == item);
