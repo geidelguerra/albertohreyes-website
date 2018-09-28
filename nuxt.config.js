@@ -1,3 +1,17 @@
+const isDev = process.env.NODE_ENV != 'production';
+
+let css = [
+  '~/assets/css/tailwind.css',
+];
+
+if (isDev) {
+  css = css.concat([
+    '@fortawesome/fontawesome-free/css/all.css',
+    '@fortawesome/fontawesome-free/css/fontawesome.css',
+    '@fortawesome/fontawesome-free/css/regular.css',
+  ]);
+}
+
 module.exports = {
   /*
   ** Modules
@@ -26,9 +40,7 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: [
-    '~/assets/css/tailwind.css'
-  ],
+  css,
   /*
   ** Build configuration
   */

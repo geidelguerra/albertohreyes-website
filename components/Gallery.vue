@@ -5,7 +5,9 @@
         {{ value + 1 }} de {{ items.length }}
       </div>
       <div class="flex-1"></div>
-      <button type="button" class="block p-2 text-white bg-white-10 rounded w-10 ml-4 mr-4" @click="$emit('request-close')">&times;</button>
+      <button type="button" class="block p-2 text-white bg-white-10 rounded w-10 ml-4 mr-4" @click="$emit('request-close')">
+        <v-icon>times</v-icon>
+      </button>
     </div>
 
     <div class="flex-1 flex relative p-4">
@@ -15,8 +17,12 @@
         </transition>
       </div>
 
-      <button type="button" class="absolute pin-l pin-y w-1/3 bg-white opacity-0 focus:outline-none hover:opacity-10" @click="previousItem"></button>
-      <button type="button" class="absolute pin-r pin-y w-1/3 bg-white opacity-0 focus:outline-none hover:opacity-10" @click="nextItem"></button>
+      <button type="button" class="absolute pin-l pin-y w-1/3 bg-black opacity-0 text-white text-5xl focus:outline-none hover:opacity-25" @click="previousItem">
+        <v-icon>chevron-left</v-icon>
+      </button>
+      <button type="button" class="absolute pin-r pin-y w-1/3 bg-black opacity-0 text-white text-5xl opacity-0 focus:outline-none hover:opacity-25" @click="nextItem">
+        <v-icon>chevron-right</v-icon>
+      </button>
     </div>
 
     <div class="pl-4 pr-4 overflow-hidden">
@@ -33,7 +39,13 @@
 </template>
 
 <script>
+import VIcon from './Icon.vue';
+
 export default {
+  components: {
+    VIcon,
+  },
+
   props: {
     items: Array,
     value: Number,
