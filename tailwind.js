@@ -58,6 +58,8 @@ let colors = {
   'grey-5': '#f3f5f8',
   'grey-6': '#dddddd',
   'grey-7': '#353535',
+
+  'yellow-1': '#E4E640',
 }
 
 module.exports = {

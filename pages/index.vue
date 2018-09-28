@@ -85,9 +85,10 @@
             <div class="max-w-xl mx-auto">
               <h1 class="text-center uppercase text-grey-6 pl-4 pr-4">{{ exhibit.title }}</h1>
               <template v-if="exhibit.description">
-                <div class="text-center text-grey-6 pl-4 pr-4">
+                <div class="text-center text-grey-6 pl-4 pr-4 pb-4">
                   {{ exhibit.artist }}
                 </div>
+                <div class="w-12 h-1 mt-4 mb-4 mx-auto bg-yellow-1"></div>
                 <div class="text-justify text-grey-6 p-4" v-html="exhibit.description"></div>
               </template>
             </div>
@@ -124,7 +125,7 @@
                       <div class="pb-16x9 bg-grey-1 bg-cover bg-center bg-no-repeat hover:shadow-md" :style="{backgroundImage: `url(${item.thumbnail ? item.thumbnail.url : item.image.url})`}"></div>
                       <div class="text-center text-sm mt-1 text-grey-2">{{ item.dimensions.join(' x ') }} <template v-if="item.year">({{ item.year }})</template></div>
                       <h2 class="text-center uppercase mt-4 font-thin text-xl">{{ item.title }}</h2>
-                      <div class="w-12 h-1 mt-4 mb-4 mx-auto bg-black"></div>
+                      <div class="w-12 h-1 mt-4 mb-4 mx-auto bg-yellow-1"></div>
                       <p class="text-center text-grey-2">{{ item.description }}</p>
                     </button>
                   </div>
