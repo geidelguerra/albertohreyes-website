@@ -5,7 +5,7 @@
         {{ value + 1 }} de {{ items.length }}
       </div>
       <div class="flex-1"></div>
-      <button type="button" class="block p-2 text-white bg-white-10 rounded w-10 ml-4 mr-4" @click="$emit('request-close')">
+      <button type="button" class="block p-2 text-white bg-white-10 rounded w-10 ml-2 mr-2" @click="$emit('request-close')">
         <v-icon>times</v-icon>
       </button>
     </div>
@@ -39,13 +39,7 @@
 </template>
 
 <script>
-import VIcon from './Icon.vue';
-
 export default {
-  components: {
-    VIcon,
-  },
-
   props: {
     items: Array,
     value: Number,

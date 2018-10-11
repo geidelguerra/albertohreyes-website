@@ -1,5 +1,5 @@
 <template lang="html">
-  <button v-bind="$attrs" v-on="$listeners" type="button" class="block w-10 h-8 mt-4 focus:outline-none" :class="{'menu-btn-active': active}">
+  <button v-bind="$attrs" v-on="$listeners" type="button" class="block w-10 h-8 focus:outline-none" :class="{'menu-btn-active': active}">
     <div class="flex flex-col justify-between h-full">
       <span class="bg-grey-2" style="height: 4px;"></span>
       <span class="bg-grey-2" style="height: 4px;"></span>

@@ -53,22 +53,22 @@
     <!-- Exhibits list -->
     <section class="pt-32 pb-32">
       <div class="max-w-xl mx-auto flex flex-wrap items-start">
-        <div class="w-full p-4 flex justify-center flex-col md:w-1/2">
-          <h2 class="text-center uppercase text-xl pb-8">Exposiciones personales</h2>
-          <ul class="list-reset">
+        <div class="w-full pt-4 pb-4 flex justify-center flex-col md:w-1/2">
+          <h2 class="uppercase text-xl pl-4 pr-4 pb-8 md:text-center">Exposiciones personales</h2>
+          <ul class="list-reset pl-2 pr-2">
             <template v-for="(exhibit, i) in personalExhibits">
-              <li class="pl-4 pr-4 pt-1 pb-1" :key="i">
+              <li class="pl-2 pr-2 pt-1 pb-1" :key="i">
                 <strong>{{ exhibit.year }}</strong> {{ exhibit.title }} {{ exhibit.location }}
               </li>
             </template>
           </ul>
         </div>
 
-        <div class="w-full p-4 flex justify-center flex-col md:w-1/2">
-          <h2 class="text-center uppercase text-xl pb-8">Exposiciones colectivas</h2>
-          <ul class="list-reset">
+        <div class="w-full pt-4 pb-4 flex justify-center flex-col md:w-1/2">
+          <h2 class="uppercase text-xl pl-4 pr-4 pb-8 md:text-center">Exposiciones colectivas</h2>
+          <ul class="list-reset pl-2 pr-2">
             <template v-for="(exhibit, i) in collectiveExhibits">
-              <li class="pl-4 pr-4 pt-1 pb-1" :key="i">
+              <li class="pl-2 pr-2 pt-1 pb-1" :key="i">
                 <strong>{{ exhibit.year }}</strong> {{ exhibit.title }} {{ exhibit.location }}
               </li>
             </template>
@@ -83,7 +83,9 @@
         <div :key="i">
           <div class="pt-16 pb-16 bg-cover bg-no-repeat bg-center bg-fixed" :style="{backgroundImage: `url(${exhibit.image.url})`}">
             <div class="max-w-xl mx-auto">
-              <h1 class="text-center uppercase text-grey-6 pl-4 pr-4">{{ exhibit.title }}</h1>
+              <h1 class="text-2xl text-center uppercase text-grey-6 pl-4 pr-4 sm:text-3xl">
+                {{ exhibit.title }}
+              </h1>
               <template v-if="exhibit.description">
                 <div class="text-center text-grey-6 pl-4 pr-4 pb-4">
                   {{ exhibit.artist }}
@@ -95,18 +97,33 @@
           </div>
 
           <!-- Articles -->
-          <div v-if="exhibit.articles" class="pt-16 pb-16 bg-grey-5 ">
+          <div v-if="exhibit.articles" class="pt-16 pb-16 bg-grey-5">
             <div class="max-w-xl mx-auto">
               <v-slider auto class="min-h-128 sm:min-h-64">
-                <template v-for="(article, j) in exhibit.articles">
-                  <div :key="i+j">
+                <template v-for="(article) in exhibit.articles">
+                  <div :key="article.id">
                     <h2 class="text-center uppercase text-grey-7 pl-4 pr-4">{{ article.author.name }}</h2>
                     <div v-if="article.author.title" class="text-center text-sm pl-4 pr-4 pb-4">
                       {{ article.author.title }}
                     </div>
-                    <h3 v-if="article.title" class="text-center">{{ article.title }}</h3>
+                    <h3 v-if="article.title" class="text-center">
+                      <nuxt-link
+                        class="hover:underline"
+                        :to="getArticleRoute(article)"
+                      >
+                        {{ article.title }}
+                      </nuxt-link>
+                    </h3>
                     <div class="text-center p-4">
                       {{ article.excerpt }}
+                    </div>
+                    <div class="flex justify-center">
+                      <nuxt-link
+                        class="text-yellow-1 hover:text-grey-1"
+                        :to="getArticleRoute(article)"
+                      >
+                        <v-icon class="text-3xl">plus-circle</v-icon>
+                      </nuxt-link>
                     </div>
                   </div>
                 </template>
@@ -116,7 +133,7 @@
 
           <!-- Gallery -->
           <div v-if="exhibit.gallery" class="pt-16 pb-16">
-            <h1 class="text-center uppercase p-4">Galería</h1>
+            <h1 class="text-2xl text-center uppercase p-4 sm:text-3xl">Galería</h1>
             <div class="max-w-xl mx-auto">
               <v-slider style="min-height: 375px" :auto="!showGallery">
                 <template v-for="(page) in totalPages(exhibit.gallery.length, gallerySliderItemsPerPage)">
@@ -144,7 +161,7 @@
     <!-- Publications -->
     <section id="publications" class="pt-32 pb-32 bg-grey-1">
       <div class="max-w-xl mx-auto">
-        <h1 class="text-center uppercase text-grey-6">Publicaciones</h1>
+        <h1 class="text-2xl text-center uppercase text-grey-6 sm:text-3xl">Publicaciones</h1>
         <ul class="list-reset flex flex-wrap justify-center pl-4 pr-4">
           <template v-for="(publication, i) in publications">
             <li class="text-center text-grey-6 text-sm p-4 w-full md:w-1/2 lg:w-1/4" :key="i">{{ publication.title }}</li>
@@ -181,16 +198,6 @@
       </div>
     </section>
 
-    <!-- Contact -->
-    <section id="contact" class="pt-32 pb-32 bg-grey-1">
-      <div class="max-w-xl mx-auto">
-        <h1 class="text-center uppercase text-grey-6">Contacto</h1>
-        <div class="text-center p-4">
-          <a class="text-grey-6 hover:text-white" :href="`mailto:${contact.email}`">{{ contact.email }}</a>
-        </div>
-      </div>
-    </section>
-
     <transition name="fade">
       <div v-if="showGallery" class="fixed pin bg-black">
         <v-gallery v-model="galleryItemIndex" :items="galleryItems" @request-close="showGallery=false"></v-gallery>
@@ -203,8 +210,17 @@
 import VPagination from '~/components/Pagination.vue';
 import VSlider from '~/components/Slider.vue';
 import VGallery from '~/components/Gallery.vue';
+import orderBy from 'lodash/orderBy';
 
 export default {
+  async fetch ({ store }) {
+    await store.dispatch('exhibits/fetchItems');
+    await store.dispatch('articles/fetchItems');
+    await store.dispatch('featured/fetchItems');
+    await store.dispatch('publications/fetchItems');
+    await store.dispatch('series/fetchItems');
+  },
+
   components: {
     VPagination,
     VSlider,
@@ -219,9 +235,6 @@ export default {
       about: {
         imageUrl: '/media/me.png'
       },
-      contact: {
-        email: 'albertohreyes1976@gmail.com'
-      },
       gallerySliderItemsPerPage: 3,
       showGallery: false,
       galleryItemIndex: -1,
@@ -231,9 +244,7 @@ export default {
 
   computed: {
     exhibits () {
-      return this.$store.state.exhibits
-        .slice()
-        .sort((a, b) => a.year > b.year ? -1 : a.year < b.year ? 1 : 0);
+      return orderBy(this.$store.state.exhibits.items, 'year', 'desc');
     },
     personalExhibits () {
       return this.exhibits.filter((exhibit) => exhibit.personal);
@@ -242,15 +253,13 @@ export default {
       return this.exhibits.filter((exhibit) => !exhibit.personal);
     },
     featuredExhibits () {
-      return this.$store.state.featured
-        .slice()
-        .sort((a, b) => a.year > b.year ? 1 : a.year < b.year ? -1 : 0);
+      return orderBy(this.$store.getters['featured/items'], 'year', 'desc');
     },
     publications () {
-      return this.$store.state.publications;
+      return this.$store.state.publications.items;
     },
     series() {
-      return this.$store.state.series;
+      return this.$store.state.series.items;
     }
   },
 
@@ -265,6 +274,14 @@ export default {
   },
 
   methods: {
+    getArticleRoute (article) {
+      return {
+        name: 'articles-article',
+        params: {
+          article: article.id
+        }
+      };
+    },
     totalPages (totalItems, itemsPerPage) {
       return Math.ceil(totalItems / itemsPerPage);
     },
