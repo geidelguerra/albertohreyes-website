@@ -56,7 +56,6 @@ export default {
         { hid: 'description', name: 'description', content: description },
         // Open Graph tags
         // http://ogp.me
-        { property: 'og:url', content: `${process.env.baseUrl}${this.$route.fullPath}` },
         { property: 'og:type', content: 'article' },
         { property: 'og:title', content: title },
         { property: 'og:description', content: description },
