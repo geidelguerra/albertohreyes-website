@@ -1,8 +1,14 @@
 <template>
   <div class="font-sans text-base leading-tight tracking-normal text-black flex flex-col min-h-screen">
     <transition name="fade">
-      <nav class="absolute pin-t w-full z-20" :class="{'bg-grey-1 fixed pin': showMenu}">
-        <div class="flex flex-col items-end pl-8 pr-8 z-50">
+      <nav
+        class="absolute pin-t w-full z-20"
+        :class="{ 'bg-grey-1 fixed pin': showMenu }"
+      >
+        <div
+          class="flex flex-col items-end pl-4 pr-4 justify-center z-50"
+          :style="{ height: `${navHeight}px`}"
+        >
           <v-menu-btn :active="showMenu" @click="showMenu=!showMenu"></v-menu-btn>
         </div>
 
@@ -26,10 +32,21 @@
       </nav>
     </transition>
 
-    <nuxt/>
+    <nuxt class="flex-1"/>
 
     <footer class="bg-grey-1">
-      <div class="max-w-xl mx-auto flex flex-wrap text-grey-2 p-2 text-xs items-center">
+      <!-- Contact -->
+      <section id="contact" class="pt-32 pb-32">
+        <div class="max-w-xl mx-auto">
+          <h1 class="text-center uppercase text-grey-6">Contacto</h1>
+          <div class="text-center p-4">
+            <a class="text-grey-6 hover:text-white" :href="`mailto:${contact.email}`">{{ contact.email }}</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Copyright -->
+      <section class="max-w-xl mx-auto flex flex-wrap text-grey-2 p-2 text-xs items-center">
         <div class="w-full text-center p-2 sm:w-1/2 sm:text-left">
           Alberto Hernández Reyes &copy; 2018 | Artista plástico
         </div>
@@ -37,7 +54,7 @@
         <div class="w-full text-center pl-4 pr-4 pt-1 pb-1 sm:w-1/2 sm:text-right">
           Creado por <a class="text-grey-3 hover:text-white" href="https://geidelguerra.com">Geidel Guerra</a>
         </div>
-      </div>
+      </section>
     </footer>
   </div>
 </template>
@@ -55,23 +72,23 @@ export default {
       items: [
         {
           text: 'Sobre el autor',
-          to: '#about',
+          to: '/#about',
         },
         {
           text: 'Exposiciones',
-          to: '#featured',
+          to: '/#featured',
         },
         {
           text: 'Publicaciones',
-          to: '#publications',
+          to: '/#publications',
         },
         {
           text: 'Otras obras',
-          to: '#series',
+          to: '/#others',
         },
         {
           text: 'Contacto',
-          to: '#contact',
+          to: '/#contact',
         },
       ]
     }
@@ -82,6 +99,12 @@ export default {
       get () { return this.$store.state.showMenu; },
       set (value) { this.$store.commit('setShowMenu', value); }
     },
+    navHeight () {
+      return this.$store.state.navHeight;
+    },
+    contact () {
+      return this.$store.state.contact;
+    }
   },
 
   watch: {
@@ -129,7 +152,7 @@ a {
 
 .scale-in-fade-enter, .scale-in-fade-leave-active {
   opacity: 0;
-  transform: scale(0.5,0.5); 
+  transform: scale(0.5,0.5);
 }
 
 .slide-enter-active, .slide-leave-active {

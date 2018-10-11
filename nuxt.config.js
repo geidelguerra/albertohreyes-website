@@ -10,6 +10,12 @@ if (isDev) {
     '@fortawesome/fontawesome-free/css/fontawesome.css',
     '@fortawesome/fontawesome-free/css/regular.css',
   ]);
+} else {
+  css = css.concat([
+    '@fortawesome/fontawesome-free/css/all.min.css',
+    '@fortawesome/fontawesome-free/css/fontawesome.min.css',
+    '@fortawesome/fontawesome-free/css/regular.min.css',
+  ]);
 }
 
 module.exports = {
@@ -42,6 +48,12 @@ module.exports = {
   */
   css,
   /*
+   * Plugins
+   */
+  plugins: [
+    '~/plugins/components.js'
+  ],
+  /*
   ** Build configuration
   */
   build: {
@@ -58,5 +70,18 @@ module.exports = {
         })
       }
     }
+  },
+
+  generate: {
+    async routes () {
+      const articles = await Promise.resolve(require('./data/articles.json'));
+
+      return articles.map((article) => {
+        return {
+          route: '/articles/' + article.id,
+          payload: article,
+        };
+      });
+    },
   }
 }
