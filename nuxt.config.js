@@ -29,11 +29,9 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'Alberto Hernández Reyes - Artista de la plástica',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Sitio personal del artista plástico Alberto Hernández Reyes' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -47,11 +45,15 @@ module.exports = {
   ** Global CSS
   */
   css,
+  router: {
+    middleware: 'i18n'
+  },
   /*
    * Plugins
    */
   plugins: [
-    '~/plugins/components.js'
+    '~/plugins/components.js',
+    '~plugins/i18n.js'
   ],
   /*
   ** Build configuration
@@ -74,14 +76,29 @@ module.exports = {
 
   generate: {
     async routes () {
-      const articles = await Promise.resolve(require('./data/articles.json'));
+      let routes = [];
 
-      return articles.map((article) => {
-        return {
-          route: '/articles/' + article.id,
-          payload: article,
-        };
-      });
+      const locales = ['es', 'en'];
+      const defaultLocale = 'es';
+
+      while (locales.length > 0) {
+        const locale = locales.shift();
+
+        if (locale !== defaultLocale) {
+          routes.push(`/${locale}`);
+        }
+
+        const articles = await Promise.resolve(require(`./data/${locale}/articles.json`));
+
+        routes = routes.concat(articles.map((article) => {
+          return {
+            route: `/${locale}/articles/${article.id}`,
+            payload: article,
+          };
+        }));
+      }
+
+      return routes;
     },
   }
 }

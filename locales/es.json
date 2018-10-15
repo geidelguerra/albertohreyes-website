@@ -1,0 +1,35 @@
+{
+  "head": {
+    "title": "Alberto Hernández Reyes - Artista de la plástica",
+    "meta": {
+      "description": "Sitio personal del artista plástico Alberto Hernández Reyes"
+    }
+  },
+  "nav": {
+    "about": "Sobre el autor",
+    "exhibits": "Exposiciones",
+    "publications": "Publicaciones",
+    "otherWork": "Otras obras",
+    "contact": "Contacto"
+  },
+  "about": {
+    "header": "Sobre el autor"
+  },
+  "exhibits": {
+    "personal": "Exposiciones personales",
+    "collective": "Exposiciones colectivas"
+  },
+  "gallery": {
+    "header": "Galería"
+  },
+  "publications": {
+    "header": "Publicaciones"
+  },
+  "contact": {
+    "header": "Contacto"
+  },
+  "footer": {
+    "copy": "Alberto Hernández Reyes &copy; 2018 | Artista de la plástica",
+    "createdBy": "Creado por"
+  }
+}

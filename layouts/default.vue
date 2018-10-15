@@ -1,3 +1,4 @@
+
 <template>
   <div class="font-sans text-base leading-tight tracking-normal text-black flex flex-col min-h-screen">
     <transition name="fade">
@@ -5,11 +6,28 @@
         class="absolute pin-t w-full z-20"
         :class="{ 'bg-grey-1 fixed pin': showMenu }"
       >
-        <div
-          class="flex flex-col items-end pl-4 pr-4 justify-center z-50"
-          :style="{ height: `${navHeight}px`}"
-        >
-          <v-menu-btn :active="showMenu" @click="showMenu=!showMenu"></v-menu-btn>
+        <div class="flex w-full max-w-xl mx-auto">
+          <ul class="list-reset flex p-2 justify-center items-center">
+            <li v-for="(locale) in locales" :key="locale">
+              <a
+                class="uppercase text-grey-2 block p-2 font-bold border-2 border-transparent"
+                :class="{'border-grey-2': locale === currentLocale}"
+                :key="locale"
+                :href="getLocaleRoute(locale)"
+              >
+                {{ locale }}
+              </a>
+            </li>
+          </ul>
+
+          <div class="flex-1"></div>
+
+          <div
+            class="flex flex-col items-end pl-4 pr-4 justify-center z-50"
+            :style="{ height: `${navHeight}px` }"
+          >
+            <v-menu-btn :active="showMenu" @click="showMenu=!showMenu"></v-menu-btn>
+          </div>
         </div>
 
         <div v-if="showMenu">
@@ -38,7 +56,7 @@
       <!-- Contact -->
       <section id="contact" class="pt-32 pb-32">
         <div class="max-w-xl mx-auto">
-          <h1 class="text-center uppercase text-grey-6">Contacto</h1>
+          <h1 class="text-center uppercase text-grey-6">{{ $t('contact.header') }}</h1>
           <div class="text-center p-4">
             <a class="text-grey-6 hover:text-white" :href="`mailto:${contact.email}`">{{ contact.email }}</a>
           </div>
@@ -47,12 +65,10 @@
 
       <!-- Copyright -->
       <section class="max-w-xl mx-auto flex flex-wrap text-grey-2 p-2 text-xs items-center">
-        <div class="w-full text-center p-2 sm:w-1/2 sm:text-left">
-          Alberto Hernández Reyes &copy; 2018 | Artista plástico
-        </div>
+        <div class="w-full text-center p-2 sm:w-1/2 sm:text-left" v-html="$t('footer.copy')"></div>
 
         <div class="w-full text-center pl-4 pr-4 pt-1 pb-1 sm:w-1/2 sm:text-right">
-          Creado por <a class="text-grey-3 hover:text-white" href="https://geidelguerra.com">Geidel Guerra</a>
+          {{ $t('footer.createdBy') }} <a class="text-grey-3 hover:text-white" href="https://geidelguerra.com">Geidel Guerra</a>
         </div>
       </section>
     </footer>
@@ -63,6 +79,14 @@
 import VMenuBtn from '~/components/MenuButton.vue';
 
 export default {
+  head () {
+    return {
+      htmlAttrs: {
+        lang: this.$store.state.locale,
+      }
+    };
+  },
+
   components: {
     VMenuBtn
   },
@@ -71,30 +95,41 @@ export default {
     return {
       items: [
         {
-          text: 'Sobre el autor',
-          to: '/#about',
+          text: this.$t('nav.about'),
+          to: this.getRoute('#about'),
         },
         {
-          text: 'Exposiciones',
-          to: '/#featured',
+          text: this.$t('nav.exhibits'),
+          to: this.getRoute('#featured'),
         },
         {
-          text: 'Publicaciones',
-          to: '/#publications',
+          text: this.$t('nav.publications'),
+          to: this.getRoute('#publications'),
         },
         {
-          text: 'Otras obras',
-          to: '/#others',
+          text: this.$t('nav.otherWork'),
+          to: this.getRoute('#others'),
         },
         {
-          text: 'Contacto',
-          to: '/#contact',
+          text: this.$t('nav.contact'),
+          to: this.getRoute('#contact'),
         },
       ]
     }
   },
 
   computed: {
+    locales () {
+      return this.$store.state.locales;
+    },
+    currentLocale: {
+      get () {
+        return this.$store.state.locale;
+      },
+      set (value) {
+        this.$store.commit('setLocale', value);
+      }
+    },
     showMenu: {
       get () { return this.$store.state.showMenu; },
       set (value) { this.$store.commit('setShowMenu', value); }
@@ -115,6 +150,20 @@ export default {
         document.querySelector('body').classList.remove('overflow-hidden');
       }
     }
+  },
+
+  methods: {
+    getRoute (path) {
+      const prefix = this.getLocaleRoute(this.$store.state.locale);
+      return `${prefix}/${path}`;
+    },
+    getLocaleRoute (locale) {
+      if (locale === 'es') {
+        return '/';
+      }
+
+      return `/${locale}`;
+    },
   }
 }
 </script>

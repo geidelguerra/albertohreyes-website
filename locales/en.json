@@ -1,0 +1,35 @@
+{
+  "head": {
+    "title": "Alberto Hernández Reyes - Plastic artist",
+    "meta": {
+      "description": "Plastic artist Alberto Hernández Reyes' personal site"
+    }
+  },
+  "nav": {
+    "about": "About",
+    "exhibits": "Exhibits",
+    "publications": "Publications",
+    "otherWork": "Other works",
+    "contact": "Contact"
+  },
+  "about": {
+    "header": "About"
+  },
+  "exhibits": {
+    "personal": "Personales exhibits",
+    "collective": "Joint exhibits"
+  },
+  "gallery": {
+    "header": "Gallery"
+  },
+  "publications": {
+    "header": "Publications"
+  },
+  "contact": {
+    "header": "Contact"
+  },
+  "footer": {
+    "copy": "Alberto Hernández Reyes &copy; 2018 | Plastic artist",
+    "createdBy": "Created by"
+  }
+}

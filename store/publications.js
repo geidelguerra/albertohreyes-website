@@ -13,9 +13,9 @@ const mutations = {
 };
 
 const actions = {
-  async fetchItems ({ commit, state }) {
+  async fetchItems ({ commit, state, rootState }) {
     if (!state.fetched) {
-      const items = await Promise.resolve(require('~/data/publications.json'));
+      const items = await Promise.resolve(require(`~/data/${rootState.locale}/publications.json`));
 
       commit('setItems', items);
       commit('setFetched', true);
