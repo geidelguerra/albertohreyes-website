@@ -315,7 +315,6 @@ export default {
     },
     onResize (e) {
       this.calculateGalleryMinHeight();
-      console.log(window.outerWidth);
     }
   },
 
