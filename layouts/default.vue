@@ -154,7 +154,9 @@ export default {
 
   methods: {
     getRoute (path) {
-      const prefix = this.getLocaleRoute(this.$store.state.locale);
+      const locale = this.$store.state.locale;
+      const prefix = locale !== 'es' ? `/${locale}` : '';
+
       return `${prefix}/${path}`;
     },
     getLocaleRoute (locale) {
