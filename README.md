@@ -1,6 +1,6 @@
-# geidelguerra-website
+# albertohreyes-website
 
-> My personal web site
+> Alberto Hernández Reyes personal web site
 
 ## Build Setup
 
@@ -20,4 +20,3 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
-
