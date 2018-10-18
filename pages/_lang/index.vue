@@ -133,7 +133,7 @@
           <div v-if="exhibit.gallery" class="pt-16 pb-16">
             <h1 class="text-2xl text-center uppercase p-4 sm:text-3xl">{{ $t('gallery.header') }}</h1>
             <div class="max-w-xl mx-auto">
-              <v-slider style="min-height: 375px" :auto="!showGallery">
+              <v-slider :style="{minHeight: `${galleryMinHeight}px`}" :auto="!showGallery">
                 <template v-for="(page) in totalPages(exhibit.gallery.length, gallerySliderItemsPerPage)">
                   <div class="flex flex-wrap pl-2 pr-2" :key="page">
                     <template v-for="(item, j) in paginate(exhibit.gallery, page, gallerySliderItemsPerPage)">
@@ -174,7 +174,7 @@
         <template v-for="(serie, i) in series">
           <div class="pt-16 pb-16" :key="i">
             <h2 class="text-center uppercase text-xl mb-4">{{ serie.title }}</h2>
-            <v-slider style="min-height: 375px" :auto="!showGallery">
+            <v-slider :style="{minHeight: `${galleryMinHeight}px`}" :auto="!showGallery">
               <template v-for="(page) in totalPages(serie.items.length, gallerySliderItemsPerPage)">
                 <div class="flex flex-wrap pt-2 pb-2" :key="page">
                   <template v-for="(item, j) in paginate(serie.items, page, gallerySliderItemsPerPage)">
@@ -252,6 +252,7 @@ export default {
       showGallery: false,
       galleryItemIndex: -1,
       galleryItems: [],
+      galleryMinHeight: 0,
     }
   },
 
@@ -287,6 +288,11 @@ export default {
   },
 
   methods: {
+    calculateGalleryMinHeight () {
+      const viewHeight = window.outerWidth;
+
+      this.galleryMinHeight = viewHeight > 575 ?  375 : 1390;
+    },
     getArticleRoute (article) {
       const locale = this.$store.state.locale;
 
@@ -307,6 +313,19 @@ export default {
       this.galleryItemIndex = gallery.findIndex((item2) => item2 == item);
       this.showGallery = true;
     },
+    onResize (e) {
+      this.calculateGalleryMinHeight();
+      console.log(window.outerWidth);
+    }
   },
+
+  mounted () {
+    this.calculateGalleryMinHeight();
+    window.addEventListener('resize', this.onResize);
+  },
+
+  beforeDestroyed () {
+    window.removeEventListener('resize', this.onResize);
+  }
 }
 </script>
