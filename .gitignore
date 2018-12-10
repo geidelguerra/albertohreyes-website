@@ -12,3 +12,5 @@ dist
 
 # Deploy scripts
 /scripts
+
+.vscode
