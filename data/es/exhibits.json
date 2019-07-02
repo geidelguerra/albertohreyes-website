@@ -164,5 +164,29 @@
     "personal": false,
     "year": 2015,
     "location": "Galería La Acacia. La Habana"
+  },
+  {
+    "title": "Expo \"Viajes oníricos\"",
+    "personal": false,
+    "year": 2018,
+    "location": "Galería Arte 1010, Mérida, Yucatán, México"
+  },
+  {
+    "title": "Expo \"Bajo la sombra del Mayabeque\"",
+    "personal": false,
+    "year": 2018,
+    "location": "Gran museo del mundo maya, Mérida, Yucatán, México"
+  },
+  {
+    "title": "Expo \"Deja volar\"",
+    "personal": false,
+    "year": 2019,
+    "location": "Centro de Artes Visuales, Mérida, Yucatán, México"
+  },
+  {
+    "title": "Expo \"El sitio más transparente\"",
+    "personal": true,
+    "year": 2019,
+    "location": "Museo de Arte Colonial. La Habana"
   }
 ]

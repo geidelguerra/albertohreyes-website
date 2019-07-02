@@ -174,6 +174,96 @@
         "year": 2008,
         "dimensions": ["200cm", "160cm"],
         "description": "Ritual de piedras en antojo, invocación de los lares."
+      },
+      {
+        "title": "Camino",
+        "image": {
+          "url": "/media/paisajes_naturalistas/camino-101x127cm-2018.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/paisajes_naturalistas/camino-101x127cm-2018_520.jpg"
+        },
+        "year": 2018,
+        "dimensions": [
+          "101cm",
+          "127cm"
+        ],
+        "description": "¿Qué umbrosas majestades penetrará el que se interna bajo las frondas?"
+      },
+      {
+        "title": "La mañana",
+        "image": {
+          "url": "/media/paisajes_naturalistas/la-manana-101x127cm-2018.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/paisajes_naturalistas/la-manana-101x127cm-2018_520.jpg"
+        },
+        "year": 2018,
+        "dimensions": [
+          "101cm",
+          "127cm"
+        ],
+        "description": "Las ramas acuden allí donde la transparencia se eleva."
+      },
+      {
+        "title": "La tarde",
+        "image": {
+          "url": "/media/paisajes_naturalistas/la-tarde-135x96cm-2019.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/paisajes_naturalistas/la-tarde-135x96cm-2019_520.jpg"
+        },
+        "year": 2019,
+        "dimensions": [
+          "135cm",
+          "96cm"
+        ],
+        "description": "Se va yendo la memoria del día."
+      },
+      {
+        "title": "Neblina",
+        "image": {
+          "url": "/media/paisajes_naturalistas/neblina-135x97cm-2019.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/paisajes_naturalistas/neblina-135x97cm-2019_520.jpg"
+        },
+        "year": 2019,
+        "dimensions": [
+          "135cm",
+          "97cm"
+        ],
+        "description": "Se velan los colores y queda expuesta la dimensión otra del paisaje."
+      },
+      {
+        "title": "Paisaje con río",
+        "image": {
+          "url": "/media/paisajes_naturalistas/paisaje-con-rio-101x127cm-2019.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/paisajes_naturalistas/paisaje-con-rio-101x127cm-2019_520.jpg"
+        },
+        "year": 2019,
+        "dimensions": [
+          "101cm",
+          "127cm"
+        ],
+        "description": "Las palmas y las piedras, atentas escuchan el aire azul de las montañas."
+      },
+      {
+        "title": "Simetría",
+        "image": {
+          "url": "/media/paisajes_naturalistas/simetria-102x127cm-2019.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/paisajes_naturalistas/simetria-102x127cm-2019_520.jpg"
+        },
+        "year": 2019,
+        "dimensions": [
+          "102cm",
+          "127cm"
+        ],
+        "description": "El aleteo de la nube despierta reflexiones en el agua."
       }
     ]
   },

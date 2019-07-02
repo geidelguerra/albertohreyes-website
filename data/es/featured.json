@@ -137,7 +137,7 @@
     "image": {
       "url": "/media/transfiguraciones/cover.jpg"
     },
-    "articles": [5, 6, 7],
+    "articles": [5, 6, 7, 8, 9],
     "gallery": [
       {
         "title": "Valle",
@@ -536,6 +536,141 @@
         },
         "dimensions": ["101cm", "127cm"],
         "description": "Como habitación dentro del bosque, en intimidad con el agua, la sombra."
+      },
+      {
+        "title": "Alto país de los bosques",
+        "year": 2018,
+        "image": {
+          "url": "/media/transfiguraciones/alto-pais-de-los-bosques-101x127cm-2018.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/alto-pais-de-los-bosques-101x127cm-2018_520.jpg"
+        },
+        "dimensions": [
+          "101cm",
+          "127cm"
+        ],
+        "description": "Cortezas que en diálogo con la luz ascienden a las copas"
+      },
+      {
+        "title": "Bosque elíptico",
+        "year": 2018,
+        "image": {
+          "url": "/media/transfiguraciones/bosque-eliptico-135x90cm-2018.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/bosque-eliptico-135x90cm-2018_520.jpg"
+        },
+        "dimensions": [
+          "135cm",
+          "90cm"
+        ],
+        "description": "El espacio de la ausencia se fragmenta en la espesura."
+      },
+      {
+        "title": "El sitio más transparente",
+        "year": 2019,
+        "image": {
+          "url": "/media/transfiguraciones/el-sitio-mas-transparente-152x101cm-2019.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/el-sitio-mas-transparente-152x101cm-2019_520.jpg"
+        },
+        "dimensions": [
+          "152cm",
+          "101cm"
+        ],
+        "description": "Sobre las aguas de la existencia crecen las hojas y el viento."
+      },
+      {
+        "title": "Lago",
+        "year": 2018,
+        "image": {
+          "url": "/media/transfiguraciones/lago-135x96cm-2018.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/lago-135x96cm-2018_520.jpg"
+        },
+        "dimensions": [
+          "135cm",
+          "96cm"
+        ],
+        "description": "El agua en su inmensa bondad contiene la tierra y el cielo."
+      },
+      {
+        "title": "Luz de río",
+        "year": 2018,
+        "image": {
+          "url": "/media/transfiguraciones/luz-de-rio-90-x135cm-2018.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/luz-de-rio-90-x135cm-2018_520.jpg"
+        },
+        "dimensions": [
+          "96cm",
+          "135cm"
+        ],
+        "description": "Los reflejos revelan la verdadera naturaleza de las sombras."
+      },
+      {
+        "title": "Paisaje sencillo",
+        "year": 2018,
+        "image": {
+          "url": "/media/transfiguraciones/paisaje-sencillo-51x71cm-2018.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/paisaje-sencillo-51x71cm-2018_520.jpg"
+        },
+        "dimensions": [
+          "51cm",
+          "71cm"
+        ],
+        "description": "En torno al eje del árbol orbita el silencio."
+      },
+      {
+        "title": "Pendiente",
+        "year": 2017,
+        "image": {
+          "url": "/media/transfiguraciones/pendiente-131x96cm-2017.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/pendiente-131x96cm-2017_520.jpg"
+        },
+        "dimensions": [
+          "131cm",
+          "96cm"
+        ],
+        "description": "Ascensión arbórea, cima ilusoria."
+      },
+      {
+        "title": "Perpectiva",
+        "year": 2018,
+        "image": {
+          "url": "/media/transfiguraciones/perspectiva-ii-132x90cm-2018.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/perspectiva-ii-132x90cm-2018_520.jpg"
+        },
+        "dimensions": [
+          "132cm",
+          "90cm"
+        ],
+        "description": "Hierba en los dominios del polvo. Piedras: lejanía."
+      },
+      {
+        "title": "Silencio de la frondas",
+        "year": 2018,
+        "image": {
+          "url": "/media/transfiguraciones/silencio-de-las-frondas-55x71cm-2018.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/silencio-de-las-frondas-55x71cm-2018_520.jpg"
+        },
+        "dimensions": [
+          "55cm",
+          "71cm"
+        ],
+        "description": "Viento y calma son el signo del equilibrio."
       }
     ]
   }

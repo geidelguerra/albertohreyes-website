@@ -28,8 +28,8 @@
     <section id="about" class="pt-32 pb-32 bg-grey-5">
       <div class="max-w-xl mx-auto">
         <h2 class="text-center pl-4 pr-4 uppercase text-xl">{{ $t('about.header') }}</h2>
-        <div class="text-center p-4 ">
-          <img :src="about.image.url" :alt="about.name">
+        <div class="text-center p-4">
+          <img class="rounded-full overflow-hidden" :src="about.image.url" :alt="about.name">
         </div>
         <div class="pl-8 pr-8">
           <div class="pt-2 pb-2">
