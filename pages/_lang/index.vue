@@ -142,8 +142,6 @@
                           <div class="pb-16x9 bg-grey-1 bg-cover bg-center bg-no-repeat hover:shadow-md" :style="{backgroundImage: `url(${item.thumbnail ? item.thumbnail.url : item.image.url})`}"></div>
                           <div class="text-center text-sm mt-1 text-grey-2">{{ item.dimensions.join(' x ') }} <template v-if="item.year">({{ item.year }})</template></div>
                           <h2 class="text-center uppercase mt-4 font-thin text-xl">{{ item.title }}</h2>
-                          <div class="w-12 h-1 mt-4 mb-4 mx-auto bg-yellow-1"></div>
-                          <p class="text-center text-grey-2">{{ item.description }}</p>
                         </button>
                       </div>
                     </template>
@@ -183,8 +181,6 @@
                         <div class="pb-16x9 bg-grey-1 bg-cover bg-center bg-no-repeat" :style="{backgroundImage: `url(${item.thumbnail ? item.thumbnail.url : item.image.url})`}"></div>
                         <div class="text-center text-sm mt-1 text-grey-2">{{ item.dimensions.join(' x ') }} <template v-if="item.year">({{ item.year }})</template></div>
                         <h2 class="text-center uppercase mt-4 font-thin text-xl">{{ item.title }}</h2>
-                        <div class="w-12 h-1 mt-4 mb-4 mx-auto bg-yellow-1"></div>
-                        <p class="text-center text-grey-2 pb-4">{{ item.description }}</p>
                       </button>
                     </div>
                   </template>
