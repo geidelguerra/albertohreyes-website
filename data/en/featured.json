@@ -536,6 +536,20 @@
         },
         "dimensions": ["101cm", "127cm"],
         "description": "Como habitación dentro del bosque, en intimidad con el agua, la sombra."
+      },
+      {
+        "title": "Tenue neblina",
+        "year": 2019,
+        "image": {
+          "url": "/media/transfiguraciones/tenue-neblina-135x96cm-2019.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/tenue-neblina-135x96cm-2019_520.jpg"
+        },
+        "dimensions": [
+          "135cm",
+          "96cm"
+        ]
       }
     ]
   }
