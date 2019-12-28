@@ -160,5 +160,29 @@
     "personal": false,
     "year": 2015,
     "location": "Acacia Gallery. Havana"
+  },
+  {
+    "title": "Expo \"Oneiric Travels\"",
+    "personal": false,
+    "year": 2018,
+    "location": "1010 Art Gallery, Méridaucatán, Mexico"
+  },
+  {
+    "title": "Expo \"Under the Mayabeque’s Shadow\"",
+    "personal": false,
+    "year": 2018,
+    "location": "Grand Museum of the Mayan World, Mérida, Yucatán, Mexico"
+  },
+  {
+    "title": "Expo \"Let Fly\"",
+    "personal": false,
+    "year": 2019,
+    "location": "Visual Arts Centre, Mérida, Yucatán, Mexico"
+  },
+  {
+    "title": "Expo \"The Most Transparent place\"",
+    "personal": true,
+    "year": 2019,
+    "location": "Colonial Art Museum, Havana"
   }
 ]

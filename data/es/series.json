@@ -11,7 +11,10 @@
           "url": "/media/letrinas/let05_520.jpg"
         },
         "year": 2005,
-        "dimensions": ["90cm", "80cm"],
+        "dimensions": [
+          "90cm",
+          "80cm"
+        ],
         "description": "Del mar inesperadamente sale un arco de tablas."
       },
       {
@@ -23,7 +26,10 @@
           "url": "/media/letrinas/let04_520.jpg"
         },
         "year": 2005,
-        "dimensions": ["57cm", "80cm"],
+        "dimensions": [
+          "57cm",
+          "80cm"
+        ],
         "description": "Cambio de rumbo, o extravío, para alcanzar el mismo fin necesario."
       },
       {
@@ -35,7 +41,10 @@
           "url": "/media/letrinas/let03_520.jpg"
         },
         "year": 2010,
-        "dimensions": ["60cm", "80cm"],
+        "dimensions": [
+          "60cm",
+          "80cm"
+        ],
         "description": "El tiempo, misionero de la espera, transita por la transparencia del agua en la textura de las piedras."
       },
       {
@@ -47,7 +56,10 @@
           "url": "/media/letrinas/let02_520.jpg"
         },
         "year": 2004,
-        "dimensions": ["60cm", "80cm"],
+        "dimensions": [
+          "60cm",
+          "80cm"
+        ],
         "description": "Al final del camino, una forma familiar, torre de intimidades."
       },
       {
@@ -59,7 +71,10 @@
           "url": "/media/letrinas/let01_520.jpg"
         },
         "year": 2005,
-        "dimensions": ["90cm", "80cm"],
+        "dimensions": [
+          "90cm",
+          "80cm"
+        ],
         "description": "La noche multiplica los reflejos en el alma."
       }
     ]
@@ -76,7 +91,10 @@
           "url": "/media/paisajes_naturalistas/paisajes09_520.jpg"
         },
         "year": 2004,
-        "dimensions": ["50cm", "70cm"],
+        "dimensions": [
+          "50cm",
+          "70cm"
+        ],
         "description": "Ruina breve de una torre al borde del camino, piedra interior."
       },
       {
@@ -88,7 +106,10 @@
           "url": "/media/paisajes_naturalistas/paisajes08_520.jpg"
         },
         "year": 2010,
-        "dimensions": ["67cm", "97cm"],
+        "dimensions": [
+          "67cm",
+          "97cm"
+        ],
         "description": "En lontananza, el ojo descubre los azules del sueño; cerca, una piedra para asentarse."
       },
       {
@@ -100,7 +121,10 @@
           "url": "/media/paisajes_naturalistas/paisajes07_520.jpg"
         },
         "year": 2006,
-        "dimensions": ["130cm", "90cm"],
+        "dimensions": [
+          "130cm",
+          "90cm"
+        ],
         "description": "Un remanso donde los reflejos invitan a quedarse."
       },
       {
@@ -112,7 +136,10 @@
           "url": "/media/paisajes_naturalistas/paisajes06_520.jpg"
         },
         "year": 2008,
-        "dimensions": ["60cm", "80cm"],
+        "dimensions": [
+          "60cm",
+          "80cm"
+        ],
         "description": "Lugar donde las musas dejaron sus vestidos transparentes."
       },
       {
@@ -124,7 +151,10 @@
           "url": "/media/paisajes_naturalistas/paisajes05_520.jpg"
         },
         "year": 2008,
-        "dimensions": ["60cm", "80cm"],
+        "dimensions": [
+          "60cm",
+          "80cm"
+        ],
         "description": "La mirada se desvía del camino para buscar a lo lejos otra verdad."
       },
       {
@@ -136,7 +166,10 @@
           "url": "/media/paisajes_naturalistas/paisajes04_520.jpg"
         },
         "year": 2010,
-        "dimensions": ["60cm", "80cm"],
+        "dimensions": [
+          "60cm",
+          "80cm"
+        ],
         "description": "Vientre en sombra salido del valle para más silencio."
       },
       {
@@ -148,7 +181,10 @@
           "url": "/media/paisajes_naturalistas/paisajes03_520.jpg"
         },
         "year": 2008,
-        "dimensions": ["90cm", "80cm"],
+        "dimensions": [
+          "90cm",
+          "80cm"
+        ],
         "description": "El cristal de las sucias aguas aún refleja el preciosismo del entorno."
       },
       {
@@ -160,7 +196,10 @@
           "url": "/media/paisajes_naturalistas/paisajes02_520.jpg"
         },
         "year": 2004,
-        "dimensions": ["50cm", "70cm"],
+        "dimensions": [
+          "50cm",
+          "70cm"
+        ],
         "description": "Un eco de intimidad detiene a la pupila en las vibraciones del color."
       },
       {
@@ -172,98 +211,53 @@
           "url": "/media/paisajes_naturalistas/paisajes01_520.jpg"
         },
         "year": 2008,
-        "dimensions": ["200cm", "160cm"],
+        "dimensions": [
+          "200cm",
+          "160cm"
+        ],
         "description": "Ritual de piedras en antojo, invocación de los lares."
       },
       {
-        "title": "Camino",
+        "title": "Hondo Bosque",
         "image": {
-          "url": "/media/paisajes_naturalistas/camino-101x127cm-2018.jpg"
+          "url": "/media/paisajes_naturalistas/hondo-bosque-135x96cm-2019.jpg"
         },
         "thumbnail": {
-          "url": "/media/paisajes_naturalistas/camino-101x127cm-2018_520.jpg"
-        },
-        "year": 2018,
-        "dimensions": [
-          "101cm",
-          "127cm"
-        ],
-        "description": "¿Qué umbrosas majestades penetrará el que se interna bajo las frondas?"
-      },
-      {
-        "title": "La mañana",
-        "image": {
-          "url": "/media/paisajes_naturalistas/la-manana-101x127cm-2018.jpg"
-        },
-        "thumbnail": {
-          "url": "/media/paisajes_naturalistas/la-manana-101x127cm-2018_520.jpg"
-        },
-        "year": 2018,
-        "dimensions": [
-          "101cm",
-          "127cm"
-        ],
-        "description": "Las ramas acuden allí donde la transparencia se eleva."
-      },
-      {
-        "title": "La tarde",
-        "image": {
-          "url": "/media/paisajes_naturalistas/la-tarde-135x96cm-2019.jpg"
-        },
-        "thumbnail": {
-          "url": "/media/paisajes_naturalistas/la-tarde-135x96cm-2019_520.jpg"
+          "url": "/media/paisajes_naturalistas/hondo-bosque-135x96cm-2019_520.jpg"
         },
         "year": 2019,
         "dimensions": [
           "135cm",
           "96cm"
-        ],
-        "description": "Se va yendo la memoria del día."
+        ]
       },
       {
-        "title": "Neblina",
+        "title": "Mañana",
         "image": {
-          "url": "/media/paisajes_naturalistas/neblina-135x97cm-2019.jpg"
+          "url": "/media/paisajes_naturalistas/manana-135x96cm-2019.jpg"
         },
         "thumbnail": {
-          "url": "/media/paisajes_naturalistas/neblina-135x97cm-2019_520.jpg"
+          "url": "/media/paisajes_naturalistas/manana-135x96cm-2019_520.jpg"
         },
         "year": 2019,
         "dimensions": [
           "135cm",
-          "97cm"
-        ],
-        "description": "Se velan los colores y queda expuesta la dimensión otra del paisaje."
+          "96cm"
+        ]
       },
       {
-        "title": "Paisaje con río",
+        "title": "Sierra Azul",
         "image": {
-          "url": "/media/paisajes_naturalistas/paisaje-con-rio-101x127cm-2019.jpg"
+          "url": "/media/paisajes_naturalistas/sierra-azul-135x96cm-2019.jpg"
         },
         "thumbnail": {
-          "url": "/media/paisajes_naturalistas/paisaje-con-rio-101x127cm-2019_520.jpg"
+          "url": "/media/paisajes_naturalistas/sierra-azul-135x96cm-2019_520.jpg"
         },
         "year": 2019,
         "dimensions": [
-          "101cm",
-          "127cm"
-        ],
-        "description": "Las palmas y las piedras, atentas escuchan el aire azul de las montañas."
-      },
-      {
-        "title": "Simetría",
-        "image": {
-          "url": "/media/paisajes_naturalistas/simetria-102x127cm-2019.jpg"
-        },
-        "thumbnail": {
-          "url": "/media/paisajes_naturalistas/simetria-102x127cm-2019_520.jpg"
-        },
-        "year": 2019,
-        "dimensions": [
-          "102cm",
-          "127cm"
-        ],
-        "description": "El aleteo de la nube despierta reflexiones en el agua."
+          "135cm",
+          "96cm"
+        ]
       }
     ]
   },
@@ -279,7 +273,10 @@
           "url": "/media/otras/otras09_520.jpg"
         },
         "year": 2013,
-        "dimensions": ["60cm", "80cm"],
+        "dimensions": [
+          "60cm",
+          "80cm"
+        ],
         "description": "Como si buscaran más gracia, los árboles peregrinan hacia otro paisaje."
       },
       {
@@ -291,7 +288,10 @@
           "url": "/media/otras/otras08_520.jpg"
         },
         "year": 2013,
-        "dimensions": ["60cm", "80cm"],
+        "dimensions": [
+          "60cm",
+          "80cm"
+        ],
         "description": "Las bocas de los árboles prometen más misterios."
       },
       {
@@ -303,7 +303,10 @@
           "url": "/media/otras/otras07_520.jpg"
         },
         "year": 2008,
-        "dimensions": ["60cm", "80cm"],
+        "dimensions": [
+          "60cm",
+          "80cm"
+        ],
         "description": "Seres de apariencia fantástica parecen dialogar en secreto."
       },
       {
@@ -315,7 +318,10 @@
           "url": "/media/otras/otras06_520.jpg"
         },
         "year": 2010,
-        "dimensions": ["69cm", "80cm"],
+        "dimensions": [
+          "69cm",
+          "80cm"
+        ],
         "description": "Una conversación bajo la luna antes que amanezca."
       },
       {
@@ -327,7 +333,10 @@
           "url": "/media/otras/otras05_520.jpg"
         },
         "year": 2011,
-        "dimensions": ["80cm", "100cm"],
+        "dimensions": [
+          "80cm",
+          "100cm"
+        ],
         "description": "Se levanta una torre, se escucha la caída suave del agua."
       },
       {
@@ -339,7 +348,10 @@
           "url": "/media/otras/otras04_520.jpg"
         },
         "year": 2008,
-        "dimensions": ["127cm", "101cm"],
+        "dimensions": [
+          "127cm",
+          "101cm"
+        ],
         "description": "A veces el sueño del paisaje produce monstruos."
       },
       {
@@ -351,7 +363,10 @@
           "url": "/media/otras/otras03_520.jpg"
         },
         "year": 2010,
-        "dimensions": ["60cm", "80cm"],
+        "dimensions": [
+          "60cm",
+          "80cm"
+        ],
         "description": "Isla fugaz suspendida en el tiempo, pedazo de memoria."
       },
       {
@@ -363,7 +378,10 @@
           "url": "/media/otras/otras02_520.jpg"
         },
         "year": 2010,
-        "dimensions": ["58cm", "80cm"],
+        "dimensions": [
+          "58cm",
+          "80cm"
+        ],
         "description": "Luces y sombras esponjosas figuran el misterio de un crepúsculo."
       },
       {
@@ -375,7 +393,10 @@
           "url": "/media/otras/otras01_520.jpg"
         },
         "year": 2010,
-        "dimensions": ["60cm", "80cm"],
+        "dimensions": [
+          "60cm",
+          "80cm"
+        ],
         "description": "Como si una sustancia desconocida del cielo cayera creando una luz imposible."
       }
     ]
