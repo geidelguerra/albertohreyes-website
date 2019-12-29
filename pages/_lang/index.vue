@@ -195,7 +195,7 @@
     <section id="gallery" class="pt-16 pb-16">
       <div class="max-w-xl mx-auto">
         <div class="pt-16 pb-16">
-          <h2 class="text-center uppercase text-3xl mb-4">Galeria</h2>
+          <h2 class="text-center uppercase text-3xl mb-4">{{ $t('gallery.header') }}</h2>
           <v-slider :style="{minHeight: `${galleryMinHeight}px`}" :auto="!showGallery">
             <template v-for="(page) in totalPages(gallery.length, gallerySliderItemsPerPage)">
               <div class="flex flex-wrap pt-2 pb-2" :key="page">
