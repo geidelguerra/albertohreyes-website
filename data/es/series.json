@@ -258,6 +258,34 @@
           "135cm",
           "96cm"
         ]
+      },
+      {
+        "title": "Árboles",
+        "image": {
+          "url": "/media/paisajes_naturalistas/arboles-101x127cm-2019.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/paisajes_naturalistas/arboles-101x127cm-2019_520.jpg"
+        },
+        "year": 2019,
+        "dimensions": [
+          "101cm",
+          "127cm"
+        ]
+      },
+      {
+        "title": "Paisaje",
+        "image": {
+          "url": "/media/paisajes_naturalistas/paisaje-101x127cm-2019.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/paisajes_naturalistas/paisaje-101x127cm-2019_520.jpg"
+        },
+        "year": 2019,
+        "dimensions": [
+          "101cm",
+          "127cm"
+        ]
       }
     ]
   },
