@@ -1,0 +1,74 @@
+[
+  {
+    "title": "con Dr. Eusebio Leal",
+    "image": {
+      "url": "/media/gallery/con-el-dr-eusebio-leal.jpg"
+    },
+    "thumbnail": {
+      "url": "/media/gallery/con-el-dr-eusebio-leal_520.jpg"
+    }
+  },
+  {
+    "title": "con Dr. Eusebio Leal",
+    "image": {
+      "url": "/media/gallery/con-el-dr-eusebio-leal-spengler.jpg"
+    },
+    "thumbnail": {
+      "url": "/media/gallery/con-el-dr-eusebio-leal-spengler_520.jpg"
+    }
+  },
+  {
+    "title": "con Maestro Cosme Proenza",
+    "image": {
+      "url": "/media/gallery/con-el-maestro-cosme-proenza.jpg"
+    },
+    "thumbnail": {
+      "url": "/media/gallery/con-el-maestro-cosme-proenza_520.jpg"
+    }
+  },
+  {
+    "title": "con Maestro Leo Brower",
+    "image": {
+      "url": "/media/gallery/con-el-maestro-leo-brower.jpg"
+    },
+    "thumbnail": {
+      "url": "/media/gallery/con-el-maestro-leo-brower_520.jpg"
+    }
+  },
+  {
+    "title": "con Maestro Orlando Valle (Maracas)",
+    "image": {
+      "url": "/media/gallery/con-el-maestro-orlando-valle-maracas.jpg"
+    },
+    "thumbnail": {
+      "url": "/media/gallery/con-el-maestro-orlando-valle-maracas_520.jpg"
+    }
+  },
+  {
+    "title": "con Maestro Roberto Fabelo",
+    "image": {
+      "url": "/media/gallery/con-el-maestro-roberto-fabelo.jpg"
+    },
+    "thumbnail": {
+      "url": "/media/gallery/con-el-maestro-roberto-fabelo_520.jpg"
+    }
+  },
+  {
+    "title": "con Maestro Leo Brower",
+    "image": {
+      "url": "/media/gallery/con-leo-brower.jpg"
+    },
+    "thumbnail": {
+      "url": "/media/gallery/con-leo-brower_520.jpg"
+    }
+  },
+  {
+    "title": "con Dr. Eusebio Leal Spengler",
+    "image": {
+      "url": "/media/gallery/inauguracion-de-la-expo-el-sitio-mas-transparente-por-el-dr-eusebio-leal-spengler.jpg"
+    },
+    "thumbnail": {
+      "url": "/media/gallery/inauguracion-de-la-expo-el-sitio-mas-transparente-por-el-dr-eusebio-leal-spengler_520.jpg"
+    }
+  }
+]

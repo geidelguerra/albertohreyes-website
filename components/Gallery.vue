@@ -27,13 +27,15 @@
 
     <div class="pl-4 pr-4 overflow-hidden">
       <transition name="slide-fade-top" mode="out-in">
-        <h2 class="text-white text-center uppercase text-xl font-thin" :key="currentItem.image.url">{{ currentItem.title}}</h2>
+        <h2 class="text-white text-center text-xl font-thin" :key="currentItem.image.url">{{ currentItem.title}}</h2>
       </transition>
-      <transition name="slide-fade-bottom" mode="out-in">
-        <div class="text-center text-grey-2 text-sm pb-4" :key="currentItem.image.url">
-          {{ currentItem.dimensions.join(' x ') }} <template v-if="currentItem.year">({{ currentItem.year }})</template>
-        </div>
-      </transition>
+      <template v-if="currentItem.dimensions">
+        <transition name="slide-fade-bottom" mode="out-in">
+          <div class="text-center text-grey-2 text-sm pb-4" :key="currentItem.image.url">
+            {{ currentItem.dimensions.join(' x ') }} <template v-if="currentItem.year">({{ currentItem.year }})</template>
+          </div>
+        </transition>
+      </template>
     </div>
   </div>
 </template>
@@ -63,7 +65,9 @@ export default {
 
   methods: {
     updateImageContainerSize () {
-      this.imageContainerSize = this.$refs.imageContainer.clientHeight;
+      if (this.$refs.imageContainer) {
+        this.imageContainerSize = this.$refs.imageContainer.clientHeight;
+      }
     },
     nextItem () {
       let nextIndex = this.value + 1;
