@@ -6,7 +6,7 @@
         <div class="h-full">
           <div class="max-w-xl mx-auto flex flex-col h-full">
             <div class="flex flex-1 justify-center items-center">
-              <div class="p-4">
+              <div class="p-4 bg-black-50 rounded-lg">
                 <h1 class="text-center font-thin text-white text-2xl">Alberto Hernández Reyes</h1>
                 <div class="text-center text-grey-3 text-xl font-thin">
                   {{ about.craft }}
