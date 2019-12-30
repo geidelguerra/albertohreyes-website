@@ -192,16 +192,16 @@
       </div>
     </section>
 
-    <section id="gallery" class="pt-16 pb-16">
+    <section id="memories" class="pt-16 pb-16">
       <div class="max-w-xl mx-auto">
         <div class="pt-16 pb-16">
-          <h2 class="text-center uppercase text-3xl mb-4">{{ $t('gallery.header') }}</h2>
+          <h2 class="text-center uppercase text-3xl mb-4">{{ $t('memories.header') }}</h2>
           <v-slider :style="{minHeight: `${galleryMinHeight}px`}" :auto="!showGallery">
-            <template v-for="(page) in totalPages(gallery.length, gallerySliderItemsPerPage)">
+            <template v-for="(page) in totalPages(memories.length, gallerySliderItemsPerPage)">
               <div class="flex flex-wrap pt-2 pb-2" :key="page">
-                <template v-for="(item, j) in paginate(gallery, page, gallerySliderItemsPerPage)">
+                <template v-for="(item, j) in paginate(memories, page, gallerySliderItemsPerPage)">
                   <div class="w-full pl-4 pr-4 pt-2 pb-2 sm:w-1/2 md:w-1/3" :key="i+j">
-                    <button type="button" class="block appearance-none w-full" @click="onGalleryItemClick(item, gallery)">
+                    <button type="button" class="block appearance-none w-full" @click="onGalleryItemClick(item, memories)">
                       <div class="pb-16x9 bg-grey-1 bg-cover bg-top bg-no-repeat" :style="{backgroundImage: `url(${item.thumbnail ? item.thumbnail.url : item.image.url})`}"></div>
                       <h2 class="text-center mt-4 font-thin text-xl">{{ item.title }}</h2>
                     </button>
@@ -240,9 +240,9 @@ export default {
 
     const hero = await Promise.resolve(require(`~/data/${locale}/hero.json`));
     const about = await Promise.resolve(require(`~/data/${locale}/about.json`));
-    const gallery = await Promise.resolve(require(`~/data/${locale}/gallery.json`));
+    const memories = await Promise.resolve(require(`~/data/${locale}/memories.json`));
 
-    return { hero, about, gallery };
+    return { hero, about, memories };
   },
 
   head () {
@@ -267,7 +267,7 @@ export default {
     return {
       hero: null,
       about: null,
-      gallery: [],
+      memories: [],
       gallerySliderItemsPerPage: 3,
       showGallery: false,
       galleryItemIndex: -1,
