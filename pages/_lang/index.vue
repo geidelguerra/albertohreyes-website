@@ -6,9 +6,9 @@
         <div class="h-full">
           <div class="max-w-xl mx-auto flex flex-col h-full">
             <div class="flex flex-1 justify-center items-center">
-              <div class="p-4 bg-black-50 rounded-lg">
+              <div class="p-4">
                 <h1 class="text-center font-thin text-white text-2xl">Alberto Hernández Reyes</h1>
-                <div class="text-center text-grey-3 text-xl font-thin">
+                <div class="text-center text-white text-xl font-bold">
                   {{ about.craft }}
                 </div>
                 <div class="text-white text-sm text-center pt-2 pb-2 max-w-sm">
