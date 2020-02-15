@@ -19,6 +19,9 @@ if (isDev) {
 }
 
 module.exports = {
+  env: {
+    BASE_URL: 'https://albertohreyes.com'
+  },
   /*
   ** Modules
   */

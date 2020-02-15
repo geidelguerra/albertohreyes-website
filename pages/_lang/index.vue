@@ -248,11 +248,23 @@ export default {
   head () {
     const title = this.$t('head.title');
     const description = this.$t('head.meta.description');
+    const image = `${process.env.BASE_URL}/media/transfiguraciones/trans03.jpg`;
 
     return {
       title,
       meta: [
-        { hid: 'description', name: 'description', content: description }
+        { hid: 'description', name: 'description', content: description },
+        // Open graph tags
+        { hid: 'og:url', property: 'og:url', content: process.env.BASE_URL },
+        { hid: 'og:type', property: 'og:type', content: 'website' },
+        { hid: 'og:title', property: 'og:title', content: title },
+        { hid: 'og:description', property: 'og:description', content: description },
+        { hid: 'og:image', property: 'og:image', content: image },
+        // Twitter tags
+        { hid: 'twitter:card', name: 'twitter:card', content: 'summary' },
+        { hid: 'twitter:title', name: 'twitter:title', content: title },
+        { hid: 'twitter:description', name: 'twitter:description', content: description },
+        { hid: 'twitter:image', name: 'twitter:image', content: image }
       ]
     };
   },
