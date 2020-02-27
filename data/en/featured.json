@@ -148,7 +148,10 @@
         "thumbnail": {
           "url": "/media/transfiguraciones/trans35_520.jpg"
         },
-        "dimensions": ["132cm", "90cm"],
+        "dimensions": [
+          "132cm",
+          "90cm"
+        ],
         "description": "Palma alzada casi en vuelo, mirador del más allá."
       },
       {
@@ -160,7 +163,10 @@
         "thumbnail": {
           "url": "/media/transfiguraciones/trans34_520.jpg"
         },
-        "dimensions": ["60cm", "80cm"],
+        "dimensions": [
+          "60cm",
+          "80cm"
+        ],
         "description": "Amanecer del agua en un valle de dorada luz."
       },
       {
@@ -172,7 +178,10 @@
         "thumbnail": {
           "url": "/media/transfiguraciones/trans33_520.jpg"
         },
-        "dimensions": ["101cm", "127cm"],
+        "dimensions": [
+          "101cm",
+          "127cm"
+        ],
         "description": "Puerta hacia la luz que escinde el bosque, llamado inevitable."
       },
       {
@@ -184,7 +193,10 @@
         "thumbnail": {
           "url": "/media/transfiguraciones/trans32_520.jpg"
         },
-        "dimensions": ["60cm", "80cm"],
+        "dimensions": [
+          "60cm",
+          "80cm"
+        ],
         "description": "El camino va de una estación a otra, sueña mutaciones."
       },
       {
@@ -196,7 +208,10 @@
         "thumbnail": {
           "url": "/media/transfiguraciones/trans31_520.jpg"
         },
-        "dimensions": ["135cm", "96cm"],
+        "dimensions": [
+          "135cm",
+          "96cm"
+        ],
         "description": "Luz de oro al final que invita a adentrarse en el fondo purificado."
       },
       {
@@ -208,7 +223,10 @@
         "thumbnail": {
           "url": "/media/transfiguraciones/trans30_520.jpg"
         },
-        "dimensions": ["134cm", "96cm"],
+        "dimensions": [
+          "134cm",
+          "96cm"
+        ],
         "description": "Sitio donde un monje podría transformar su fe."
       },
       {
@@ -220,18 +238,25 @@
         "thumbnail": {
           "url": "/media/transfiguraciones/trans29_520.jpg"
         },
-        "dimensions": ["60cm", "80cm"],
+        "dimensions": [
+          "60cm",
+          "80cm"
+        ],
         "description": "Todo es ausencia en la bruma, menos lo más cercano."
       },
       {
         "title": "Paisaje con palmas",
+        "year": 2015,
         "image": {
           "url": "/media/transfiguraciones/trans28.jpg"
         },
         "thumbnail": {
           "url": "/media/transfiguraciones/trans28_520.jpg"
         },
-        "dimensions": ["155cm", "96cm"],
+        "dimensions": [
+          "155cm",
+          "96cm"
+        ],
         "description": "Cuales gracias que se disputan el camino, las palmas se mueven."
       },
       {
@@ -243,7 +268,10 @@
         "thumbnail": {
           "url": "/media/transfiguraciones/trans27_520.jpg"
         },
-        "dimensions": ["100cm", "132cm"],
+        "dimensions": [
+          "100cm",
+          "132cm"
+        ],
         "description": "El diálogo entre el sol y la palma acaso produce la niebla."
       },
       {
@@ -255,7 +283,10 @@
         "thumbnail": {
           "url": "/media/transfiguraciones/trans26_520.jpg"
         },
-        "dimensions": ["90cm", "132cm"],
+        "dimensions": [
+          "90cm",
+          "132cm"
+        ],
         "description": "Oníricas formaciones a la deriva, fermentación de la memoria."
       },
       {
@@ -267,7 +298,10 @@
         "thumbnail": {
           "url": "/media/transfiguraciones/trans25_520.jpg"
         },
-        "dimensions": ["101cm", "127cm"],
+        "dimensions": [
+          "101cm",
+          "127cm"
+        ],
         "description": "Reverencia en la espesura, ascensión de la ofrenda."
       },
       {
@@ -279,7 +313,10 @@
         "thumbnail": {
           "url": "/media/transfiguraciones/trans24_520.jpg"
         },
-        "dimensions": ["90cm", "132cm"],
+        "dimensions": [
+          "90cm",
+          "132cm"
+        ],
         "description": "Páramo de lenguas surrealistas, parada de comensales."
       },
       {
@@ -291,7 +328,10 @@
         "thumbnail": {
           "url": "/media/transfiguraciones/trans23_520.jpg"
         },
-        "dimensions": ["60cm", "80cm"],
+        "dimensions": [
+          "60cm",
+          "80cm"
+        ],
         "description": "Las inquietas ramas, con instinto narcisista, en el lago buscan su espejo."
       },
       {
@@ -303,7 +343,10 @@
         "thumbnail": {
           "url": "/media/transfiguraciones/trans22_520.jpg"
         },
-        "dimensions": ["101cm", "127cm"],
+        "dimensions": [
+          "101cm",
+          "127cm"
+        ],
         "description": "Padre e hijo, cómplices en la continuidad de la forma."
       },
       {
@@ -315,7 +358,10 @@
         "thumbnail": {
           "url": "/media/transfiguraciones/trans21_520.jpg"
         },
-        "dimensions": ["135cm", "90cm"],
+        "dimensions": [
+          "135cm",
+          "90cm"
+        ],
         "description": "Discípulo y maestro, sobrecogidos por la luz, meditan sobre el agua."
       },
       {
@@ -327,7 +373,10 @@
         "thumbnail": {
           "url": "/media/transfiguraciones/trans20_520.jpg"
         },
-        "dimensions": ["133cm", "196m"],
+        "dimensions": [
+          "133cm",
+          "196m"
+        ],
         "description": "El río, cual un brazo que sostiene a la luz, parece levitar."
       },
       {
@@ -339,106 +388,145 @@
         "thumbnail": {
           "url": "/media/transfiguraciones/trans19_520.jpg"
         },
-        "dimensions": ["134cm", "96cm"],
+        "dimensions": [
+          "134cm",
+          "96cm"
+        ],
         "description": "El oro de las aguas hace que los árboles se inclinen hacia ellas."
       },
       {
         "title": "La última luz",
+        "year": 2013,
         "image": {
           "url": "/media/transfiguraciones/trans18.jpg"
         },
         "thumbnail": {
           "url": "/media/transfiguraciones/trans18_520.jpg"
         },
-        "dimensions": ["132cm", "90cm"],
+        "dimensions": [
+          "132cm",
+          "90cm"
+        ],
         "description": "A contraluz, un teatro de siluetas que, inmóviles, danzan."
       },
       {
         "title": "La otra orilla",
+        "year": 2015,
         "image": {
           "url": "/media/transfiguraciones/trans17.jpg"
         },
         "thumbnail": {
           "url": "/media/transfiguraciones/trans17_520.jpg"
         },
-        "dimensions": ["60cm", "80cm"],
+        "dimensions": [
+          "60cm",
+          "80cm"
+        ],
         "description": "Más allá, una claridad evanescente, refugio de la luz."
       },
       {
         "title": "La cima",
+        "year": 2012,
         "image": {
           "url": "/media/transfiguraciones/trans16.jpg"
         },
         "thumbnail": {
           "url": "/media/transfiguraciones/trans16_520.jpg"
         },
-        "dimensions": ["135cm", "90cm"],
+        "dimensions": [
+          "135cm",
+          "90cm"
+        ],
         "description": "Sensualidad de la colina, pecho de la madre tierra."
       },
       {
         "title": "Insólita piedra",
+        "year": 2012,
         "image": {
           "url": "/media/transfiguraciones/trans15.jpg"
         },
         "thumbnail": {
           "url": "/media/transfiguraciones/trans15_520.jpg"
         },
-        "dimensions": ["101cm", "127cm"],
+        "dimensions": [
+          "101cm",
+          "127cm"
+        ],
         "description": "Como memoria del tiempo la piedra ha crecido."
       },
       {
         "title": "Evanescente",
+        "year": 2013,
         "image": {
           "url": "/media/transfiguraciones/trans14.jpg"
         },
         "thumbnail": {
           "url": "/media/transfiguraciones/trans14_520.jpg"
         },
-        "dimensions": ["136cm", "96cm"],
+        "dimensions": [
+          "136cm",
+          "96cm"
+        ],
         "description": "Ante los ojos la naturaleza parece que se está yendo."
       },
       {
         "title": "Estanque",
+        "year": 2013,
         "image": {
           "url": "/media/transfiguraciones/trans13.jpg"
         },
         "thumbnail": {
           "url": "/media/transfiguraciones/trans13_520.jpg"
         },
-        "dimensions": ["135cm", "96cm"],
+        "dimensions": [
+          "135cm",
+          "96cm"
+        ],
         "description": "Laja en el agua estancada, fábula de la piedra seca."
       },
       {
         "title": "Estado múltiple",
+        "year": 2016,
         "image": {
           "url": "/media/transfiguraciones/trans12.jpg"
         },
         "thumbnail": {
           "url": "/media/transfiguraciones/trans12_520.jpg"
         },
-        "dimensions": ["101cm", "127cm"],
+        "dimensions": [
+          "101cm",
+          "127cm"
+        ],
         "description": "Erótica del mutismo en el éxtasis de la maternidad."
       },
       {
         "title": "Efímera neblina",
+        "year": 2013,
         "image": {
           "url": "/media/transfiguraciones/trans11.jpg"
         },
         "thumbnail": {
           "url": "/media/transfiguraciones/trans11_520.jpg"
         },
-        "dimensions": ["136cm", "96cm"],
+        "dimensions": [
+          "136cm",
+          "96cm"
+        ],
         "description": "Atmósfera de velos neblinosos donde es posible trascender."
       },
       {
         "title": "Discurso del árbol",
+        "year": 2013,
         "image": {
           "url": "/media/transfiguraciones/trans10.jpg"
         },
         "thumbnail": {
           "url": "/media/transfiguraciones/trans10_520.jpg"
         },
-        "dimensions": ["132.5cm", "90cm"],
+        "dimensions": [
+          "132.5cm",
+          "90cm"
+        ],
         "description": "El líder, con estática danza, gesticula, crea."
       },
       {
@@ -450,7 +538,10 @@
         "thumbnail": {
           "url": "/media/transfiguraciones/trans08_520.jpg"
         },
-        "dimensions": ["101cm", "127cm"],
+        "dimensions": [
+          "101cm",
+          "127cm"
+        ],
         "description": "Laguna y camino, detención y movimiento, silencio y voz."
       },
       {
@@ -462,7 +553,10 @@
         "thumbnail": {
           "url": "/media/transfiguraciones/trans07_520.jpg"
         },
-        "dimensions": ["52.5cm", "75cm"],
+        "dimensions": [
+          "52.5cm",
+          "75cm"
+        ],
         "description": "Templo gótico que busca la luz en lo más alto, se erige en figura imperiosa."
       },
       {
@@ -474,7 +568,10 @@
         "thumbnail": {
           "url": "/media/transfiguraciones/trans06_520.jpg"
         },
-        "dimensions": ["60cm", "80cm"],
+        "dimensions": [
+          "60cm",
+          "80cm"
+        ],
         "description": "El arbusto tan recto, acaso sueña un páramo ondulatorio."
       },
       {
@@ -486,7 +583,10 @@
         "thumbnail": {
           "url": "/media/transfiguraciones/trans05_520.jpg"
         },
-        "dimensions": ["135cm", "96cm"],
+        "dimensions": [
+          "135cm",
+          "96cm"
+        ],
         "description": "Equilibrio de las frondas, sensualidad de las colinas."
       },
       {
@@ -498,7 +598,10 @@
         "thumbnail": {
           "url": "/media/transfiguraciones/trans04_520.jpg"
         },
-        "dimensions": ["60cm", "80cm"],
+        "dimensions": [
+          "60cm",
+          "80cm"
+        ],
         "description": "Como en un sueño bíblico, el agua parece la primera agua."
       },
       {
@@ -510,7 +613,10 @@
         "thumbnail": {
           "url": "/media/transfiguraciones/trans03_520.jpg"
         },
-        "dimensions": ["101cm", "127cm"],
+        "dimensions": [
+          "101cm",
+          "127cm"
+        ],
         "description": "Peregrinación de rumores en busca del origen de la soledad."
       },
       {
@@ -522,7 +628,10 @@
         "thumbnail": {
           "url": "/media/transfiguraciones/trans02_520.jpg"
         },
-        "dimensions": ["101cm", "127cm"],
+        "dimensions": [
+          "101cm",
+          "127cm"
+        ],
         "description": "A la ruta de los peregrinos, unos que van, otros que vienen, se asoma la extrañeza."
       },
       {
@@ -534,7 +643,10 @@
         "thumbnail": {
           "url": "/media/transfiguraciones/trans01_520.jpg"
         },
-        "dimensions": ["101cm", "127cm"],
+        "dimensions": [
+          "101cm",
+          "127cm"
+        ],
         "description": "Como habitación dentro del bosque, en intimidad con el agua, la sombra."
       },
       {
@@ -549,6 +661,146 @@
         "dimensions": [
           "135cm",
           "96cm"
+        ]
+      },
+      {
+        "title": "Alto país de los bosques",
+        "year": 2018,
+        "image": {
+          "url": "/media/transfiguraciones/alto-pais-de-los-bosques-101x127cm-2018.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/alto-pais-de-los-bosques-101x127cm-2018_520.jpg"
+        },
+        "dimensions": [
+          "135cm",
+          "96cm"
+        ]
+      },
+      {
+        "title": "Bosque elíptico",
+        "year": 2018,
+        "image": {
+          "url": "/media/transfiguraciones/bosque-eliptico-135x96cm-2018.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/bosque-eliptico-135x96cm-2018_520.jpg"
+        },
+        "dimensions": [
+          "135cm",
+          "96cm"
+        ]
+      },
+      {
+        "title": "El sitio más transparente",
+        "year": 2019,
+        "image": {
+          "url": "/media/transfiguraciones/el-sitio-mas-transparente-152x101cm-2019.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/el-sitio-mas-transparente-152x101cm-2019_520.jpg"
+        },
+        "dimensions": [
+          "152cm",
+          "101cm"
+        ]
+      },
+      {
+        "title": "Lago",
+        "year": 2018,
+        "image": {
+          "url": "/media/transfiguraciones/lago-135x96cm-2018.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/lago-135x96cm-2018_520.jpg"
+        },
+        "dimensions": [
+          "135cm",
+          "96cm"
+        ]
+      },
+      {
+        "title": "Luz de río",
+        "year": 2018,
+        "image": {
+          "url": "/media/transfiguraciones/luz-de-rio-90-x135cm-2018.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/luz-de-rio-90-x135cm-2018_520.jpg"
+        },
+        "dimensions": [
+          "90cm",
+          "135cm"
+        ]
+      },
+      {
+        "title": "Paisaje sencillo",
+        "year": 2018,
+        "image": {
+          "url": "/media/transfiguraciones/paisaje-sencillo-51x71cm-2018.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/paisaje-sencillo-51x71cm-2018_520.jpg"
+        },
+        "dimensions": [
+          "51cm",
+          "71cm"
+        ]
+      },
+      {
+        "title": "Pendiente",
+        "year": 2017,
+        "image": {
+          "url": "/media/transfiguraciones/pendiente-131x96cm-2017.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/pendiente-131x96cm-2017_520.jpg"
+        },
+        "dimensions": [
+          "131cm",
+          "90cm"
+        ]
+      },
+      {
+        "title": "Perspectiva",
+        "year": 2018,
+        "image": {
+          "url": "/media/transfiguraciones/perspectiva-ii-132x90cm-2018.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/perspectiva-ii-132x90cm-2018_520.jpg"
+        },
+        "dimensions": [
+          "132cm",
+          "90cm"
+        ]
+      },
+      {
+        "title": "Silencio de las frondas",
+        "year": 2018,
+        "image": {
+          "url": "/media/transfiguraciones/silencio-de-las-frondas-56x71cm-2018.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/silencio-de-las-frondas-56x71cm-2018_520.jpg"
+        },
+        "dimensions": [
+          "56cm",
+          "71cm"
+        ]
+      },
+      {
+        "title": "Sol negro",
+        "year": 2018,
+        "image": {
+          "url": "/media/transfiguraciones/sol-negro-101x127cm-2018.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/sol-negro-101x127cm-2018_520.jpg"
+        },
+        "dimensions": [
+          "101cm",
+          "127cm"
         ]
       }
     ]

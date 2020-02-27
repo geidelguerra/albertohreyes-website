@@ -225,6 +225,7 @@
       },
       {
         "title": "Paisaje con palmas",
+        "year": 2015,
         "image": {
           "url": "/media/transfiguraciones/trans28.jpg"
         },
@@ -344,6 +345,7 @@
       },
       {
         "title": "La última luz",
+        "year": 2013,
         "image": {
           "url": "/media/transfiguraciones/trans18.jpg"
         },
@@ -355,6 +357,7 @@
       },
       {
         "title": "La otra orilla",
+        "year": 2015,
         "image": {
           "url": "/media/transfiguraciones/trans17.jpg"
         },
@@ -366,6 +369,7 @@
       },
       {
         "title": "La cima",
+        "year": 2012,
         "image": {
           "url": "/media/transfiguraciones/trans16.jpg"
         },
@@ -377,6 +381,7 @@
       },
       {
         "title": "Insólita piedra",
+        "year": 2012,
         "image": {
           "url": "/media/transfiguraciones/trans15.jpg"
         },
@@ -388,6 +393,7 @@
       },
       {
         "title": "Evanescente",
+        "year": 2013,
         "image": {
           "url": "/media/transfiguraciones/trans14.jpg"
         },
@@ -399,6 +405,7 @@
       },
       {
         "title": "Estanque",
+        "year": 2013,
         "image": {
           "url": "/media/transfiguraciones/trans13.jpg"
         },
@@ -410,6 +417,7 @@
       },
       {
         "title": "Estado múltiple",
+        "year": 2016,
         "image": {
           "url": "/media/transfiguraciones/trans12.jpg"
         },
@@ -421,6 +429,7 @@
       },
       {
         "title": "Efímera neblina",
+        "year": 2013,
         "image": {
           "url": "/media/transfiguraciones/trans11.jpg"
         },
@@ -432,6 +441,7 @@
       },
       {
         "title": "Discurso del árbol",
+        "year": 2013,
         "image": {
           "url": "/media/transfiguraciones/trans10.jpg"
         },
@@ -549,6 +559,146 @@
         "dimensions": [
           "135cm",
           "96cm"
+        ]
+      },
+      {
+        "title": "Alto país de los bosques",
+        "year": 2018,
+        "image": {
+          "url": "/media/transfiguraciones/alto-pais-de-los-bosques-101x127cm-2018.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/alto-pais-de-los-bosques-101x127cm-2018_520.jpg"
+        },
+        "dimensions": [
+          "135cm",
+          "96cm"
+        ]
+      },
+      {
+        "title": "Bosque elíptico",
+        "year": 2018,
+        "image": {
+          "url": "/media/transfiguraciones/bosque-eliptico-135x96cm-2018.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/bosque-eliptico-135x96cm-2018_520.jpg"
+        },
+        "dimensions": [
+          "135cm",
+          "96cm"
+        ]
+      },
+      {
+        "title": "El sitio más transparente",
+        "year": 2019,
+        "image": {
+          "url": "/media/transfiguraciones/el-sitio-mas-transparente-152x101cm-2019.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/el-sitio-mas-transparente-152x101cm-2019_520.jpg"
+        },
+        "dimensions": [
+          "152cm",
+          "101cm"
+        ]
+      },
+      {
+        "title": "Lago",
+        "year": 2018,
+        "image": {
+          "url": "/media/transfiguraciones/lago-135x96cm-2018.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/lago-135x96cm-2018_520.jpg"
+        },
+        "dimensions": [
+          "135cm",
+          "96cm"
+        ]
+      },
+      {
+        "title": "Luz de río",
+        "year": 2018,
+        "image": {
+          "url": "/media/transfiguraciones/luz-de-rio-90-x135cm-2018.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/luz-de-rio-90-x135cm-2018_520.jpg"
+        },
+        "dimensions": [
+          "90cm",
+          "135cm"
+        ]
+      },
+      {
+        "title": "Paisaje sencillo",
+        "year": 2018,
+        "image": {
+          "url": "/media/transfiguraciones/paisaje-sencillo-51x71cm-2018.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/paisaje-sencillo-51x71cm-2018_520.jpg"
+        },
+        "dimensions": [
+          "51cm",
+          "71cm"
+        ]
+      },
+      {
+        "title": "Pendiente",
+        "year": 2017,
+        "image": {
+          "url": "/media/transfiguraciones/pendiente-131x96cm-2017.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/pendiente-131x96cm-2017_520.jpg"
+        },
+        "dimensions": [
+          "131cm",
+          "90cm"
+        ]
+      },
+      {
+        "title": "Perspectiva",
+        "year": 2018,
+        "image": {
+          "url": "/media/transfiguraciones/perspectiva-ii-132x90cm-2018.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/perspectiva-ii-132x90cm-2018_520.jpg"
+        },
+        "dimensions": [
+          "132cm",
+          "90cm"
+        ]
+      },
+      {
+        "title": "Silencio de las frondas",
+        "year": 2018,
+        "image": {
+          "url": "/media/transfiguraciones/silencio-de-las-frondas-56x71cm-2018.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/silencio-de-las-frondas-56x71cm-2018_520.jpg"
+        },
+        "dimensions": [
+          "56cm",
+          "71cm"
+        ]
+      },
+      {
+        "title": "Sol negro",
+        "year": 2018,
+        "image": {
+          "url": "/media/transfiguraciones/sol-negro-101x127cm-2018.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/transfiguraciones/sol-negro-101x127cm-2018_520.jpg"
+        },
+        "dimensions": [
+          "101cm",
+          "127cm"
         ]
       }
     ]
