@@ -98,8 +98,8 @@
           <div v-if="exhibit.articles" class="pt-16 pb-16 bg-grey-5">
             <div class="max-w-xl mx-auto">
               <v-slider auto class="min-h-128 sm:min-h-64">
-                <template v-for="(article) in exhibit.articles">
-                  <div :key="article.id">
+                <template v-for="(article, i) in exhibit.articles">
+                  <div :key="i">
                     <h2 class="text-center uppercase text-grey-7 pl-4 pr-4">{{ article.author.name }}</h2>
                     <div v-if="article.author.title" class="text-center text-sm pl-4 pr-4 pb-4">
                       {{ article.author.title }}
@@ -134,7 +134,7 @@
             <h1 class="text-2xl text-center uppercase p-4 sm:text-3xl">{{ $t('gallery.header') }}</h1>
             <div class="max-w-xl mx-auto">
               <v-slider :style="{minHeight: `${galleryMinHeight}px`}" :auto="!showGallery">
-                <template v-for="(page) in totalPages(exhibit.gallery.length, gallerySliderItemsPerPage)">
+                <template v-for="(page, i) in totalPages(exhibit.gallery.length, gallerySliderItemsPerPage)">
                   <div class="flex flex-wrap pl-2 pr-2" :key="page">
                     <template v-for="(item, j) in paginate(exhibit.gallery, page, gallerySliderItemsPerPage)">
                       <div class="w-full pt-4 pb-4 pl-2 pr-2 sm:w-1/2 md:w-1/3" :key="i+j">
@@ -197,7 +197,7 @@
         <div class="pt-16 pb-16">
           <h2 class="text-center uppercase text-3xl mb-4">{{ $t('memories.header') }}</h2>
           <v-slider :style="{minHeight: `${galleryMinHeight}px`}" :auto="!showGallery">
-            <template v-for="(page) in totalPages(memories.length, gallerySliderItemsPerPage)">
+            <template v-for="(page, i) in totalPages(memories.length, gallerySliderItemsPerPage)">
               <div class="flex flex-wrap pt-2 pb-2" :key="page">
                 <template v-for="(item, j) in paginate(memories, page, gallerySliderItemsPerPage)">
                   <div class="w-full pl-4 pr-4 pt-2 pb-2 sm:w-1/2 md:w-1/3" :key="i+j">
