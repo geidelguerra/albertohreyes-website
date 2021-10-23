@@ -10,8 +10,8 @@
           <ul class="list-reset flex p-2 justify-center items-center">
             <li v-for="(locale) in locales" :key="locale">
               <a
-                class="uppercase text-grey-2 block p-2 font-bold border-2 border-transparent"
-                :class="{'border-grey-2': locale === currentLocale}"
+                class="uppercase text-black block p-2 font-bold border-2 border-transparent"
+                :class="{'border-black': locale === currentLocale}"
                 :key="locale"
                 :href="getLocaleRoute(locale)"
               >
