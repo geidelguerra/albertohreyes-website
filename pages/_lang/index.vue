@@ -142,7 +142,7 @@
                     <template v-for="(item, j) in paginate(exhibit.gallery, page, gallerySliderItemsPerPage)">
                       <div class="w-full pt-4 pb-4 pl-2 pr-2 sm:w-1/2 md:w-1/3" :key="i+j">
                         <button type="button" class="block appearance-none w-full" @click="onGalleryItemClick(item, exhibit.gallery)">
-                          <div class="pb-16x9 bg-grey-1 bg-cover bg-center bg-no-repeat hover:shadow-md" :style="{backgroundImage: `url(${item.thumbnail ? item.thumbnail.url : item.image.url})`}"></div>
+                          <div class="pb-16x9 bg-grey-1 bg-cover bg-center bg-no-repeat hover:shadow-md" :style="{backgroundImage: `url(${item.image.thumbnail_url || item.thumbnail.url})`}"></div>
                           <div class="text-center text-sm mt-1 text-grey-2">{{ item.dimensions.join(' x ') }} <template v-if="item.year">({{ item.year }})</template></div>
                           <h2 class="text-center uppercase mt-4 font-thin text-xl">{{ item.title }}</h2>
                         </button>
@@ -181,7 +181,7 @@
                   <template v-for="(item, j) in paginate(serie.items, page, gallerySliderItemsPerPage)">
                     <div class="w-full pl-4 pr-4 pt-2 pb-2 sm:w-1/2 md:w-1/3" :key="i+j">
                       <button type="button" class="block appearance-none w-full" @click="onGalleryItemClick(item, serie.items)">
-                        <div class="pb-16x9 bg-grey-1 bg-cover bg-center bg-no-repeat" :style="{backgroundImage: `url(${item.thumbnail ? item.thumbnail.url : item.image.url})`}"></div>
+                        <div class="pb-16x9 bg-grey-1 bg-cover bg-center bg-no-repeat" :style="{backgroundImage: `url(${item.image.thumbnail_url || item.thumbnail.url})`}"></div>
                         <div class="text-center text-sm mt-1 text-grey-2">{{ item.dimensions.join(' x ') }} <template v-if="item.year">({{ item.year }})</template></div>
                         <h2 class="text-center uppercase mt-4 font-thin text-xl">{{ item.title }}</h2>
                       </button>
@@ -205,7 +205,7 @@
                 <template v-for="(item, j) in paginate(memories, page, gallerySliderItemsPerPage)">
                   <div class="w-full pl-4 pr-4 pt-2 pb-2 sm:w-1/2 md:w-1/3" :key="i+j">
                     <button type="button" class="block appearance-none w-full" @click="onGalleryItemClick(item, memories)">
-                      <div class="pb-16x9 bg-grey-1 bg-cover bg-top bg-no-repeat" :style="{backgroundImage: `url(${item.thumbnail ? item.thumbnail.url : item.image.url})`}"></div>
+                      <div class="pb-16x9 bg-grey-1 bg-cover bg-top bg-no-repeat" :style="{backgroundImage: `url(${item.image.thumbnail_url || item.thumbnail.url})`}"></div>
                       <h2 class="text-center mt-4 font-thin text-xl">{{ item.title }}</h2>
                     </button>
                   </div>

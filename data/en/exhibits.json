@@ -184,5 +184,29 @@
     "personal": true,
     "year": 2019,
     "location": "Colonial Art Museum, Havana"
+  },
+  {
+    "title": "\"Mysterivm arboris\" Pego Contemporary Art Museum",
+    "personal": true,
+    "year": 2021,
+    "location": "Alicante, Spain."
+  },
+  {
+    "year": 2021,
+    "title": "\"17 ODS, 17 mirades. Homenaje a Manaut\" Ca la Vila",
+    "location": " LLiria, Valencia, Spain.",
+    "personal": false
+  },
+  {
+    "year": 2021,
+    "title": "\"La mar dels baleàrics\"",
+    "location": "Tower of Medinaceli palace, El Verger, Alicante, Spain",
+    "personal": false
+  },
+  {
+    "year": 2021,
+    "title": "\"Embracing dialogues\"",
+    "location": "DCS Contemporary Art Gallery, Karlsruhe, Alemania.",
+    "personal": false
   }
 ]

@@ -27,15 +27,6 @@
     }
   },
   {
-    "title": "with Master Leo Brower",
-    "image": {
-      "url": "/media/gallery/con-el-maestro-leo-brower.jpg"
-    },
-    "thumbnail": {
-      "url": "/media/gallery/con-el-maestro-leo-brower_520.jpg"
-    }
-  },
-  {
     "title": "with Master Orlando Valle (Maracas)",
     "image": {
       "url": "/media/gallery/con-el-maestro-orlando-valle-maracas.jpg"
@@ -54,21 +45,57 @@
     }
   },
   {
-    "title": "with Master Leo Brower",
-    "image": {
-      "url": "/media/gallery/con-leo-brower.jpg"
-    },
-    "thumbnail": {
-      "url": "/media/gallery/con-leo-brower_520.jpg"
-    }
-  },
-  {
     "title": "with Eusebio Leal Spengler, PhD",
     "image": {
       "url": "/media/gallery/inauguracion-de-la-expo-el-sitio-mas-transparente-por-el-dr-eusebio-leal-spengler.jpg"
     },
     "thumbnail": {
       "url": "/media/gallery/inauguracion-de-la-expo-el-sitio-mas-transparente-por-el-dr-eusebio-leal-spengler_520.jpg"
+    }
+  },
+  {
+    "title": "Contemplación",
+    "thumbnail": {
+      "url": "media/gallery/contemplacion_520.jpg"
+    },
+    "image": {
+      "url": "media/gallery/contemplacion_1200.jpg"
+    }
+  },
+  {
+    "title": "El sitio más transparente (Museo de Arte Colonial)",
+    "thumbnail": {
+      "url": "media/gallery/el-sitio-mas-transparente-museo-de-arte-colonial_520.jpg"
+    },
+    "image": {
+      "url": "media/gallery/el-sitio-mas-transparente-museo-de-arte-colonial_1200.jpg"
+    }
+  },
+  {
+    "title": "En el estudio",
+    "thumbnail": {
+      "url": "media/gallery/en-el-estudio_520.jpg"
+    },
+    "image": {
+      "url": "media/gallery/en-el-estudio_1200.jpg"
+    }
+  },
+  {
+    "title": "Impermanencia (Palacio del Conde de Lombillo)",
+    "thumbnail": {
+      "url": "media/gallery/impermanencia-palacio-del-conde-de-lombillo_520.jpg"
+    },
+    "image": {
+      "url": "media/gallery/impermanencia-palacio-del-conde-de-lombillo_1200.jpg"
+    }
+  },
+  {
+    "title": "Leo Brower (Ilustración de portada)",
+    "image": {
+      "url": "/media/gallery/leo-brower-ilustracion-de-portada_1200.jpg"
+    },
+    "thumbnail": {
+      "url": "/media/gallery/leo-brower-ilustracion-de-portada_520.jpg"
     }
   }
 ]

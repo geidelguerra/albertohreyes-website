@@ -274,7 +274,7 @@
         ]
       },
       {
-        "title": "Árboles",
+        "title": "Algarrobos",
         "image": {
           "url": "/media/paisajes_naturalistas/arboles-101x127cm-2019.jpg"
         },
@@ -383,6 +383,162 @@
         "dimensions": [
           "131cm",
           "96cm"
+        ]
+      },
+      {
+        "title": "La tarde",
+        "image": {
+          "url": "/media/paisajes_naturalistas/la-tarde-102x127cm-2021_1200.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/paisajes_naturalistas/la-tarde-102x127cm-2021_520.jpg"
+        },
+        "year": 2021,
+        "dimensions": [
+          "102cm",
+          "127cm"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Iluminaciones",
+    "items": [
+      {
+        "title": "Consonancia",
+        "image": {
+          "thumbnail_url": "/media/iluminaciones/consonancia-132x90cm-2021_520.jpg",
+          "url": "/media/iluminaciones/consonancia-132x90cm-2021_1200.jpg"
+        },
+        "year": 2021,
+        "dimensions": [
+          "132cm",
+          "90cm"
+        ]
+      },
+      {
+        "title": "Espejismo",
+        "image": {
+          "thumbnail_url": "/media/iluminaciones/espejismo-60x80cm-2021_520.jpg",
+          "url": "/media/iluminaciones/espejismo-60x80cm-2021_1200.jpg"
+        },
+        "year": 2021,
+        "dimensions": [
+          "60cm",
+          "80cm"
+        ]
+      },
+      {
+        "title": "La Montaña",
+        "image": {
+          "thumbnail_url": "/media/iluminaciones/la-montana-60x80cm-2021_520.jpg",
+          "url": "/media/iluminaciones/la-montana-60x80cm-2021_1200.jpg"
+        },
+        "year": 2021,
+        "dimensions": [
+          "60cm",
+          "80cm"
+        ]
+      },
+      {
+        "title": "Naufragio",
+        "image": {
+          "thumbnail_url": "/media/iluminaciones/naufragio-60x80cm-2021_520.jpg",
+          "url": "/media/iluminaciones/naufragio-60x80cm-2021_1200.jpg"
+        },
+        "year": 2021,
+        "dimensions": [
+          "60cm",
+          "80cm"
+        ]
+      },
+      {
+        "title": "Orígen",
+        "image": {
+          "thumbnail_url": "/media/iluminaciones/origen-102x127cm-2021_520.jpg",
+          "url": "/media/iluminaciones/origen-102x127cm-2021_1200.jpg"
+        },
+        "year": 2021,
+        "dimensions": [
+          "102cm",
+          "127cm"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Las edades del mundo",
+    "items": [
+      {
+        "title": "La edad azul",
+        "image": {
+          "thumbnail_url": "/media/las_edades_del_mundo/la-edad-azul-60x80cm-2021_520.jpg",
+          "url": "/media/las_edades_del_mundo/la-edad-azul-60x80cm-2021_1200.jpg"
+        },
+        "year": 2021,
+        "dimensions": [
+          "60cm",
+          "80cm"
+        ]
+      },
+      {
+        "title": "La edad de las sombras",
+        "image": {
+          "thumbnail_url": "/media/las_edades_del_mundo/la-edad-de-las-sombras-60x80cm-2021_520.jpg",
+          "url": "/media/las_edades_del_mundo/la-edad-de-las-sombras-60x80cm-2021_1200.jpg"
+        },
+        "year": 2021,
+        "dimensions": [
+          "60cm",
+          "80cm"
+        ]
+      },
+      {
+        "title": "La edad dorada",
+        "image": {
+          "thumbnail_url": "/media/las_edades_del_mundo/la-edad-dorada-60x80cm-2021_520.jpg",
+          "url": "/media/las_edades_del_mundo/la-edad-dorada-60x80cm-2021_1200.jpg"
+        },
+        "year": 2021,
+        "dimensions": [
+          "60cm",
+          "80cm"
+        ]
+      },
+      {
+        "title": "La edad esmeralda",
+        "image": {
+          "thumbnail_url": "/media/las_edades_del_mundo/la-edad-esmeralda-56x71cm-2021-s_520.jpg",
+          "url": "/media/las_edades_del_mundo/la-edad-esmeralda-56x71cm-2021-s_1200.jpg"
+        },
+        "year": 2021,
+        "dimensions": [
+          "56cm",
+          "71cm"
+        ]
+      },
+      {
+        "title": "La edad verde",
+        "image": {
+          "thumbnail_url": "/media/las_edades_del_mundo/la-edad-verde-80x60cm-2021_520.jpg",
+          "url": "/media/las_edades_del_mundo/la-edad-verde-80x60cm-2021_1200.jpg"
+        },
+        "year": 2021,
+        "dimensions": [
+          "80cm",
+          "60cm"
+        ]
+      },
+      {
+        "title": "Levedad",
+        "image": {
+          "thumbnail_url": "/media/las_edades_del_mundo/levedad-70x55-2021_520.jpg",
+          "url": "/media/las_edades_del_mundo/levedad-70x55-2021_1200.jpg"
+        },
+        "year": 2021,
+        "dimensions": [
+          "70cm",
+          "55cm"
         ]
       }
     ]
@@ -524,6 +680,20 @@
           "80cm"
         ],
         "description": "Como si una sustancia desconocida del cielo cayera creando una luz imposible."
+      },
+      {
+        "title": "Solitaria",
+        "image": {
+          "url": "/media/otras/solitaria-75x75cm-2021_1200.jpg"
+        },
+        "thumbnail": {
+          "url": "/media/otras/solitaria-75x75cm-2021_520.jpg"
+        },
+        "year": 2021,
+        "dimensions": [
+          "75cm",
+          "75cm"
+        ]
       }
     ]
   }
