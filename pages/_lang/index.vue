@@ -7,11 +7,11 @@
           <div class="max-w-xl mx-auto flex flex-col h-full">
             <div class="flex flex-1 justify-center items-center">
               <div class="p-4">
-                <h1 class="text-center font-thin text-black text-2xl">Alberto Hernández Reyes</h1>
+                <h1 class="text-center font-black text-black text-2xl">Alberto Hernández Reyes</h1>
                 <div class="text-center text-black text-xl font-bold">
                   {{ about.craft }}
                 </div>
-                <div class="text-black text-sm text-center pt-2 pb-2 max-w-sm">
+                <div class="text-black text-lg text-center pt-2 pb-2 max-w-sm">
                   <div class="" v-html="hero.content"></div>
                   <div class="text-center mt-2">
                     {{ hero.author.name }}
